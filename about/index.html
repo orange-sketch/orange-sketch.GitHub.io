@@ -5,7 +5,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
-    枼の華
+    关于 | 枼の華
 </title>
 <link rel="shortcut icon" href="https://orange-sketch.top/favicon.ico?v=1595427362642">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
@@ -19,6 +19,7 @@
 <script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
+        
 </head>
 
 <body>
@@ -93,36 +94,73 @@
     });
 </script>
 
-            <div class="tags-container main-container">
-                <div class="tags-group">
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            关于
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2019-01-25</time>
+                            
+                        </div>
+                        
+                                <div class="post-content">
+                                    <figure data-type="image" tabindex="1"><img src="https://ae01.alicdn.com/kf/Hb85ca444f5604003904cf41f17dcd61ek.jpg" alt="about" loading="lazy"></figure>
+<blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+<!-- more -->
+<p>  偶尔会忘了密码🌼，想起来时会更新一下，热衷于技术和文学🍋；小编不才，文章有疏漏之处还望多多赐教❤️，如果你有好的文章也可以分享给大家🌈！<br>
+  * 联系邮箱🍊：3463708618@qq.com*<a href="https://huahuaedu.github.io" target=“_blank”> achang</a>的镜像站</p>
+
+                                </div>
+                    </article>
+                    <!--  -->
                     
-                        <a class="tags-tag i-tag
-                            i-tag-other_2" href="https://orange-sketch.top/38xKl0Sipv/">
-                            应用
-                        </a>
-                        
-                        <a class="tags-tag i-tag
-                            i-tag-" href="https://orange-sketch.top/cPQmXqYCY/">
-                            笔记
-                        </a>
-                        
-                        <a class="tags-tag i-tag
-                            i-tag-primary" href="https://orange-sketch.top/LX6bLZKRdM/">
-                            技术
-                        </a>
-                        
-                        <a class="tags-tag i-tag
-                            i-tag-info" href="https://orange-sketch.top/83NhOTZo9f/">
-                            转载
-                        </a>
-                        
-                        <a class="tags-tag i-tag
-                            i-tag-other_2" href="https://orange-sketch.top/MT0O6Z-Flq/">
-                            生活
-                        </a>
-                        
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
                 </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                                <!-- id-card -->
+                                
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://orange-sketch.top/images/avatar.png?v=1595427362642)">
+        </div>
+        <h1 class="id_card-title">
+            枼の華
+        </h1>
+        <h2 class="id_card-description">
+            一直走，莫回頭。
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
+
+        </div>
+    </div>
+    
+                                    
+
+                </div>
+
+
+
+
             </div>
+
 
             <div class="site-footer">
    | 
@@ -133,7 +171,15 @@
   hljs.initHighlightingOnLoad()
 </script>
 
+
     </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+    
 </body>
 
 </html>

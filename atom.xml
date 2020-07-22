@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://orange-sketch.top</id>
     <title>枼の華</title>
-    <updated>2020-07-10T10:04:15.132Z</updated>
+    <updated>2020-07-22T14:16:04.549Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://orange-sketch.top"/>
     <link rel="self" href="https://orange-sketch.top/atom.xml"/>
@@ -11,9 +11,24 @@
     <icon>https://orange-sketch.top/favicon.ico</icon>
     <rights>All rights reserved 2020, 枼の華</rights>
     <entry>
+        <title type="html"><![CDATA[简约系]]></title>
+        <id>https://orange-sketch.top/ksG7QnBd3/</id>
+        <link href="https://orange-sketch.top/ksG7QnBd3/">
+        </link>
+        <updated>2020-07-22T11:08:53.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>简而不失其华。约不显其涩，这才是我们现在需要的。</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>简而不失其华。约不显其涩，这才是我们现在需要的。</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[第一天]]></title>
-        <id>https://orange-sketch.top/post/mxtfqvD8s/</id>
-        <link href="https://orange-sketch.top/post/mxtfqvD8s/">
+        <id>https://orange-sketch.top/mxtfqvD8s/</id>
+        <link href="https://orange-sketch.top/mxtfqvD8s/">
         </link>
         <updated>2020-07-10T04:05:03.000Z</updated>
         <summary type="html"><![CDATA[<blockquote>
@@ -27,8 +42,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[nice]]></title>
-        <id>https://orange-sketch.top/post/XhO2hP51r/</id>
-        <link href="https://orange-sketch.top/post/XhO2hP51r/">
+        <id>https://orange-sketch.top/XhO2hP51r/</id>
+        <link href="https://orange-sketch.top/XhO2hP51r/">
         </link>
         <updated>2020-07-10T04:00:37.000Z</updated>
         <summary type="html"><![CDATA[<blockquote>
@@ -42,8 +57,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[markdown图床 ]]></title>
-        <id>https://orange-sketch.top/post/8ljY_MJPk/</id>
-        <link href="https://orange-sketch.top/post/8ljY_MJPk/">
+        <id>https://orange-sketch.top/8ljY_MJPk/</id>
+        <link href="https://orange-sketch.top/8ljY_MJPk/">
         </link>
         <updated>2020-07-10T03:52:57.000Z</updated>
         <summary type="html"><![CDATA[<blockquote>
@@ -57,8 +72,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[markdown基本语法 ]]></title>
-        <id>https://orange-sketch.top/post/w4EkO6Ruv/</id>
-        <link href="https://orange-sketch.top/post/w4EkO6Ruv/">
+        <id>https://orange-sketch.top/w4EkO6Ruv/</id>
+        <link href="https://orange-sketch.top/w4EkO6Ruv/">
         </link>
         <updated>2020-07-10T03:49:22.000Z</updated>
         <summary type="html"><![CDATA[<blockquote>
@@ -72,8 +87,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[轻应用]]></title>
-        <id>https://orange-sketch.top/post/QI9lWtctn/</id>
-        <link href="https://orange-sketch.top/post/QI9lWtctn/">
+        <id>https://orange-sketch.top/QI9lWtctn/</id>
+        <link href="https://orange-sketch.top/QI9lWtctn/">
         </link>
         <updated>2020-07-10T03:37:38.000Z</updated>
         <summary type="html"><![CDATA[<blockquote>
@@ -87,8 +102,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[滴~你的小目标已上线]]></title>
-        <id>https://orange-sketch.top/post/lqcBZ39iC/</id>
-        <link href="https://orange-sketch.top/post/lqcBZ39iC/">
+        <id>https://orange-sketch.top/lqcBZ39iC/</id>
+        <link href="https://orange-sketch.top/lqcBZ39iC/">
         </link>
         <updated>2020-07-10T03:30:14.000Z</updated>
         <summary type="html"><![CDATA[<blockquote>
@@ -102,8 +117,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[随笔]]></title>
-        <id>https://orange-sketch.top/post/loidmWvxp/</id>
-        <link href="https://orange-sketch.top/post/loidmWvxp/">
+        <id>https://orange-sketch.top/loidmWvxp/</id>
+        <link href="https://orange-sketch.top/loidmWvxp/">
         </link>
         <updated>2020-07-10T03:27:21.000Z</updated>
         <summary type="html"><![CDATA[<blockquote>
@@ -117,8 +132,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hi,你来了，送你一朵小花]]></title>
-        <id>https://orange-sketch.top/post/OQ414AVpG/</id>
-        <link href="https://orange-sketch.top/post/OQ414AVpG/">
+        <id>https://orange-sketch.top/OQ414AVpG/</id>
+        <link href="https://orange-sketch.top/OQ414AVpG/">
         </link>
         <updated>2020-07-10T03:22:27.000Z</updated>
         <summary type="html"><![CDATA[<blockquote>
@@ -132,8 +147,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[ 感谢书籍从我的全世界路过 ]]></title>
-        <id>https://orange-sketch.top/post/QRx9ZCSvC/</id>
-        <link href="https://orange-sketch.top/post/QRx9ZCSvC/">
+        <id>https://orange-sketch.top/QRx9ZCSvC/</id>
+        <link href="https://orange-sketch.top/QRx9ZCSvC/">
         </link>
         <updated>2020-07-10T03:10:20.000Z</updated>
         <summary type="html"><![CDATA[<blockquote>
