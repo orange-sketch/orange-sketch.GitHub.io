@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://orange-sketch.top</id>
     <title>枼の華</title>
-    <updated>2020-07-22T14:21:19.938Z</updated>
+    <updated>2020-07-23T11:17:37.965Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://orange-sketch.top"/>
     <link rel="self" href="https://orange-sketch.top/atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>https://orange-sketch.top/images/avatar.png</logo>
     <icon>https://orange-sketch.top/favicon.ico</icon>
     <rights>All rights reserved 2020, 枼の華</rights>
+    <entry>
+        <title type="html"><![CDATA[清理“小公举”~]]></title>
+        <id>https://orange-sketch.top/7fkoZTYMD/</id>
+        <link href="https://orange-sketch.top/7fkoZTYMD/">
+        </link>
+        <updated>2020-07-23T10:20:18.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>此“小公举(具)”非彼小公举哦。</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>此“小公举(具)”非彼小公举哦。</p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[简约系]]></title>
         <id>https://orange-sketch.top/ksG7QnBd3/</id>
@@ -142,23 +157,6 @@
 ]]></summary>
         <content type="html"><![CDATA[<blockquote>
 <p>欢迎来到我的小站🌹</p>
-</blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ 感谢书籍从我的全世界路过 ]]></title>
-        <id>https://orange-sketch.top/QRx9ZCSvC/</id>
-        <link href="https://orange-sketch.top/QRx9ZCSvC/">
-        </link>
-        <updated>2020-07-10T03:10:20.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote>
-<p>风吹落如花般碎碎的流年,总有一份精神食粮是自己梦途中最美的点缀。<br>
-              --题记</p>
-</blockquote>
-]]></summary>
-        <content type="html"><![CDATA[<blockquote>
-<p>风吹落如花般碎碎的流年,总有一份精神食粮是自己梦途中最美的点缀。<br>
-              --题记</p>
 </blockquote>
 ]]></content>
     </entry>
