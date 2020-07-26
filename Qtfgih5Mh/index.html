@@ -5,7 +5,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
-    枼の華
+    动态演示 | 枼の華
 </title>
 <link rel="shortcut icon" href="https://orange-sketch.top/favicon.ico?v=1595743804401">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
@@ -19,6 +19,7 @@
 <script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
+        
 </head>
 
 <body>
@@ -93,36 +94,75 @@
     });
 </script>
 
-            <div class="tags-container main-container">
-                <div class="tags-group">
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            动态演示
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2020-07-25</time>
+                            
+                        </div>
+                        
+                                <div class="post-content">
+                                    <p>MarkDown支持内嵌HTML语言，所以如果想要插入视频直接使用HTML标签即可，下面给出一种方法的代码示例：</p>
+<pre><code class="language-html">&lt;video controls=&quot;&quot; autoplay=&quot;&quot; name=&quot;media&quot;&gt;
+    &lt;source src=&quot;https://www.w3school.com.cn/example/html5/mov_bbb.mp4&quot; type=&quot;video/mp4&quot;&gt;
+&lt;/video&gt;
+</code></pre>
+<video controls="" autoplay="" name="media">
+    <source src="https://www.w3school.com.cn/example/html5/mov_bbb.mp4" type="video/mp4">
+</video>
+<p><a href="https://files.catbox.moe/89ybop.flv " target="_blank">nyly</a></p>
+
+                                </div>
+                    </article>
+                    <!--  -->
                     
-                        <a class="tags-tag i-tag
-                            i-tag-warning" href="https://orange-sketch.top/38xKl0Sipv/">
-                            应用
-                        </a>
-                        
-                        <a class="tags-tag i-tag
-                            i-tag-" href="https://orange-sketch.top/cPQmXqYCY/">
-                            笔记
-                        </a>
-                        
-                        <a class="tags-tag i-tag
-                            i-tag-success" href="https://orange-sketch.top/LX6bLZKRdM/">
-                            技术
-                        </a>
-                        
-                        <a class="tags-tag i-tag
-                            i-tag-other_4" href="https://orange-sketch.top/83NhOTZo9f/">
-                            转载
-                        </a>
-                        
-                        <a class="tags-tag i-tag
-                            i-tag-info" href="https://orange-sketch.top/MT0O6Z-Flq/">
-                            生活
-                        </a>
-                        
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
                 </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                                <!-- id-card -->
+                                
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://orange-sketch.top/images/avatar.png?v=1595743804401)">
+        </div>
+        <h1 class="id_card-title">
+            枼の華
+        </h1>
+        <h2 class="id_card-description">
+            一直走，莫回頭。
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
+
+        </div>
+    </div>
+    
+                                    
+
+                </div>
+
+
+
+
             </div>
+
 
             <div class="site-footer">
    | 
@@ -133,7 +173,15 @@
   hljs.initHighlightingOnLoad()
 </script>
 
+
     </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+    
 </body>
 
 </html>
