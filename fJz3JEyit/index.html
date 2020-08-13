@@ -1,0 +1,456 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    网页CSS格式 | 枼の華
+</title>
+<link rel="shortcut icon" href="https://orange-sketch.top/favicon.ico?v=1597331107652">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://orange-sketch.top/styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://orange-sketch.top/media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+
+        
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://orange-sketch.top">
+                <img class="avatar" src="https://orange-sketch.top/images/avatar.png?v=1597331107652" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    枼の華
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    归档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="https://orange-sketch.top/post/about" class="menu">
+                                    关于
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
+
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            网页CSS格式
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2020-08-13</time>
+                            
+                        </div>
+                        
+                                <div class="post-content">
+                                    <blockquote>
+<p>改变传统的网页浏览格式，让网页更加个性化。</p>
+</blockquote>
+<!-- more -->
+<ul>
+<li>样式一</li>
+</ul>
+<p>''<br>
+.c-container {<br>
+border: 1px solid #F5F5F5;<br>
+border-radius: 1px;<br>
+padding: 25px;<br>
+transition: all 450ms cubic-bezier(0.01, 0.48, 0.47, 0.99) 0ms;<br>
+box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.05);<br>
+}<br>
+.c-container:hover {<br>
+border: 1px solid #B9D5FF;<br>
+box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.10);<br>
+}</p>
+<p>/<em>未选中方框，边框，阴影</em>/<br>
+.c-container {<br>
+border: 1px solid #fdfdfd00;<br>
+background:#fdfdfd26;<br>
+border-radius: 1px;<br>
+padding: 25px;<br>
+transition: all 450ms cubic-bezier(0.01, 0.48, 0.47, 0.99) 0ms;<br>
+box-shadow: 5px 5px 10px 0 rgba(157, 155, 155, 0);<br>
+}<br>
+/<em>选中方框</em>/<br>
+.c-container:hover {<br>
+border: 1px solid #e8e8e8ed;<br>
+background:#fffefe8a;<br>
+box-shadow: 5px 5px 10px 0 rgba(28, 28, 28, .85);<br>
+}</p>
+<p>/<em>多栏</em>/<br>
+.container_l, .op-img-star-divide-low &gt; a {<br>
+width: auto !important;<br>
+}</p>
+<p>#content_left {<br>
+width: 93%!important;<br>
+padding-left: 3.5%!important;<br>
+}<br>
+#content_left &gt; .c-container, #content_left &gt; [class^=&quot;result&quot;] {<br>
+display: block !important;<br>
+width: 31% !important;<br>
+min-width: 568px !important;<br>
+min-height: 116px !important;<br>
+float: left !important;<br>
+margin: 0.4% !important;<br>
+padding: 8px 5px 3px 5px !important;<br>
+table-layout: fixed !important;<br>
+border-collapse: separate !important;<br>
+overflow: hidden !important;<br>
+}</p>
+<p>.s_tab, .nums, .search_tool_conter, #rs, .to_tieba, .to_zhidao_bottom {<br>
+margin: 0 auto!important;<br>
+}</p>
+<p>#page, #s_tab {<br>
+padding-left: 0px !important;<br>
+text-align: center!important;<br>
+}</p>
+<p>body[link='#0000cc'] .s_form {<br>
+width:793px!important;<br>
+margin:0 auto !important;<br>
+transform:translatex(-260px);<br>
+}</p>
+<p>#content_right, .c-recommend, body &gt; div[class=&quot;result-op xpath-log&quot;], #content_left &gt; * {<br>
+display: none !important;<br>
+}</p>
+<p>/* 搜索标题 <em>/<br>
+.t a,p a,#rs a,#rs_top_new a,.hint_toprq_tips_items div a,.c-title a{<br>
+color:#040404de!important;<br>
+text-decoration:none;<br>
+}<br>
+/</em> 新闻搜索 标题 */<br>
+.c-title{<br>
+font-size:18px;<br>
+font-weight:normal;<br>
+}</p>
+<p>.t a em,.c-title a em{<br>
+/*     color:#4E4E4E!important; */<br>
+text-decoration:none;<br>
+}<br>
+.t a:hover,p a:hover,#rs a:hover,.res-gap-right16:hover,.c-abstract a:hover,.hint_toprq_tips_items div a:hover,.c-title a:hover{<br>
+color:#b90006!important;<br>
+text-decoration:none;<br>
+}<br>
+.op-mapcity-btm a:hover{<br>
+color:white!important;<br>
+}<br>
+.t a:hover em,.c-title a:hover em{<br>
+color:#aa0101!important;<br>
+}</p>
+<p>/* 介绍字体及颜色 */<br>
+.c-abstract,.c-abstract a,.op_offical_weibo_name,.op_offical_weibo_detail,.op_offical_weibo_pz a,.op_offical_weibo_other a,.c-row,.c-more_link,.op_tour_aim_tip span a,.op-koubei2-comt,.op-koubei2-more a,.op_weather4_twoicon_aa,.op_weather4_twoicon_close, .op_weather4_twoicon_open,.op_sp_realtime_bigpic5_list_info a,.op_sp_realtime_bigpic5_subTitle_con a,.op_sp_realtime_bigpic5_first_abs a{<br>
+color:#2b1400b5!important;<br>
+font-size: 12px;<br>
+text-decoration:none;<br>
+}</p>
+<p>/* 搜索结果标红 */<br>
+em,.c-row em,.c-abstract em,.c-offset a em,.result-op table tr td a em,.c-offset td a em,.op-tieba-general-lookmore a em,.c-gap-top-small a:hover,.opr-recommends-merge-more-btn:hover,.op_sp_realtime_bigpic5_first_abs a:hover{<br>
+color:#b3011b!important;<br>
+}</p>
+<p>.c-gap-left{<br>
+margin-left:0px;<br>
+}<br>
+.c-offset{<br>
+padding-left:0px;<br>
+}</p>
+<p>/<em>分类标签</em>/<br>
+.c-tabs-nav {<br>
+background-color: #EEEEEE;<br>
+}</p>
+<p>.c-tabs-nav-selected {<br>
+border-bottom: #F44336 2px solid !important;<br>
+background-color: #2196F3 !important;<br>
+color: #fff !important;<br>
+}</p>
+<p>a {<br>
+color: #4879BD;<br>
+}</p>
+<p>h3 a:hover {<br>
+border-bottom: #4879BD 1.2px solid;<br>
+}</p>
+<p>.c-showurl {<br>
+color: #532c029e;<br>
+}</p>
+<p>.op-se-listen-recommend:hover {<br>
+border-bottom: #4879BD 1.2px solid;<br>
+}</p>
+<p>.c-gap-bottom-small a:hover {<br>
+border-bottom: #4879BD 1.2px solid;<br>
+}<br>
+.c-row a:hover {<br>
+border-bottom: #4879BD 1.2px solid;<br>
+}<br>
+#rs a:hover {<br>
+border-bottom: #4879BD 1.2px solid;<br>
+}<br>
+.hint_toprq_tips_items a:hover {<br>
+border-bottom: #4879BD 1.2px solid;<br>
+}<br>
+.c:hover {<br>
+border-bottom: #4879BD 1.2px solid;<br>
+}</p>
+<p>em {<br>
+color: #EA4335;<br>
+}</p>
+<p>/<em>页面背景</em>/<br>
+body {<br>
+background-color: #eee0;<br>
+}</p>
+<p>/<em>页码</em>/<br>
+#page a{<br>
+background: #fff;<br>
+color: #42424282;<br>
+}</p>
+<p>#page a:hover{<br>
+background-color: #e0e0e0 !important;<br>
+}</p>
+<p>#page a .pc:hover {<br>
+background-color: #e0e0e0;<br>
+}</p>
+<p>#page strong {<br>
+background-color: #4285F4 !important;<br>
+color: #fff;<br>
+}</p>
+<p>#page strong .pc {<br>
+background-color: #4285F4 !important;<br>
+}</p>
+<p>.pc:hover {<br>
+background-color: #e0e0e0;<br>
+}</p>
+<p>#s_tab b {<br>
+border-bottom: 3px #4879BD solid;<br>
+color: #4879BD;<br>
+}</p>
+<p>#s_tab {<br>
+border-bottom: #e0e0e0 1px solid;<br>
+}</p>
+<p>.bdpfmenu a:hover {<br>
+background-color: #4879BD !important;<br>
+}</p>
+<p>.setpref:hover {<br>
+background-color: #4879BD !important;<br>
+}</p>
+<p>#u .lb {<br>
+background-color: #4879BD;<br>
+}</p>
+<p>#u .lb:hover {<br>
+background-color: #618CC7;<br>
+}</p>
+<p>#u .lb:active {<br>
+background-color: #7DA0D0;<br>
+}</p>
+<p>#bg {<br>
+background-color: #FFF !important;<br>
+background: #FFF;<br>
+}</p>
+<p>#u1 a.lb {<br>
+background-color: #4879BD;<br>
+}</p>
+<p>#u1 a.lb:hover {<br>
+background-color: #618CC7;<br>
+}</p>
+<p>#u1 a.lb:active {<br>
+background-color: #7DA0D0;<br>
+}</p>
+<p>#u_sp .s_bri {<br>
+background-color: #F44336;<br>
+}</p>
+<p>#s_username_top {<br>
+background-color: #e0e0e0;<br>
+}</p>
+<p>.s-user-set-menu a:hover {<br>
+background-color: #4879BD !important;<br>
+}</p>
+<p>#user {<br>
+background-color: #fff0;<br>
+}</p>
+<p>.msg-setting-btn {<br>
+background-color: #4879BD !important;<br>
+}<br>
+.no-use {<br>
+background-color: #E5E5E5 !important;<br>
+}</p>
+<p>.pass-text-input {<br>
+border-bottom: #e0e0e0 2px solid !important;<br>
+border-left: #fff 0px solid !important;<br>
+border-right: #fff 0px solid !important;<br>
+border-top: #fff 0px solid !important;<br>
+}</p>
+<p>.pass-text-input-focus {<br>
+border-bottom: #4879BD 2px solid !important;<br>
+border-left: #fff 0px solid !important;<br>
+border-right: #fff 0px solid !important;<br>
+border-top: #fff 0px solid !important;<br>
+}</p>
+<p>.tang-pass-pop-login-color-blue .pass-button {<br>
+background-color: #4879BD;<br>
+}<br>
+.tang-pass-pop-login-color-blue .pass-button:hover {<br>
+background-color: #618CC7;<br>
+}</p>
+<p>/<strong><strong>可以加一些自己的背景图片,替换引号内的内容为可外链的图片即可</strong></strong>/<br>
+body{<br>
+background-repeat: repeat-y;<br>
+background-size: 100%;<br>
+background-attachment:fixed;<br>
+background-image:<br>
+url('https://s1.ax1x.com/2020/08/08/a4gxRH.jpg');}<br>
+/<em><strong><strong>窗口背景的透明虚化效果</strong></strong></em>/<br>
+body&gt;#wrapper,body&gt;.wrap,body&gt;#main,body #appbar,body #hdtbSum{<br>
+background: rgba(225, 225, 225, 0);}</p>
+<p>body #head,body&gt;#page{<br>
+background: rgba(225, 225, 225, .21);}<br>
+/<em>头部</em>/<br>
+body #head{<br>
+background: #e8e6e6a1;</p>
+<p>}<br>
+/<em>颈部</em>/<br>
+body #s_tab {<br>
+background: #d50101;<br>
+}<br>
+body #color{<br>
+color: #fb0303;<br>
+background: #d50101<br>
+}</p>
+<p>''</p>
+
+                                </div>
+                    </article>
+                    <!--  -->
+                    
+                        <div class="next-post">
+                            <div class="next">下一篇</div>
+                            <a href="https://orange-sketch.top/CfN8I_LVV/">
+                                <h3 class="post-title">
+                                    观影神器
+                                </h3>
+                            </a>
+                        </div>
+                        
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
+                </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                                <!-- id-card -->
+                                
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://orange-sketch.top/images/avatar.png?v=1597331107652)">
+        </div>
+        <h1 class="id_card-title">
+            枼の華
+        </h1>
+        <h2 class="id_card-description">
+            一直走，莫回頭。
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
+
+        </div>
+    </div>
+    
+                                    
+
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="site-footer">
+   | 
+  <a class="rss" href="https://orange-sketch.top/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+
+    </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+    
+</body>
+
+</html>
