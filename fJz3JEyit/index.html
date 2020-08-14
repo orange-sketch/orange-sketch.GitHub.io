@@ -7,7 +7,7 @@
 <title>
     网页CSS格式 | 枼の華
 </title>
-<link rel="shortcut icon" href="https://orange-sketch.top/favicon.ico?v=1597366356384">
+<link rel="shortcut icon" href="https://orange-sketch.top/favicon.ico?v=1597370251631">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
 <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
@@ -28,7 +28,7 @@
     <div class="nav">
         <div class="logo">
             <a href="https://orange-sketch.top">
-                <img class="avatar" src="https://orange-sketch.top/images/avatar.png?v=1597366356384" alt="">
+                <img class="avatar" src="https://orange-sketch.top/images/avatar.png?v=1597370251631" alt="">
             </a>
             <div class="site-title">
                 <h1>
@@ -130,268 +130,321 @@
 <img src="https://gitee.com/lichangle/pic/raw/master/css.png" alt="view" loading="lazy"><br>
 代码：</li>
 </ul>
-<p>''<br>
-.c-container {<br>
-border: 1px solid #F5F5F5;<br>
-border-radius: 1px;<br>
-padding: 25px;<br>
-transition: all 450ms cubic-bezier(0.01, 0.48, 0.47, 0.99) 0ms;<br>
-box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.05);<br>
-}<br>
-.c-container:hover {<br>
-border: 1px solid #B9D5FF;<br>
-box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.10);<br>
-}</p>
-<p>/<em>未选中方框，边框，阴影</em>/<br>
-.c-container {<br>
-border: 1px solid #fdfdfd00;<br>
-background:#fdfdfd26;<br>
-border-radius: 1px;<br>
-padding: 25px;<br>
-transition: all 450ms cubic-bezier(0.01, 0.48, 0.47, 0.99) 0ms;<br>
-box-shadow: 5px 5px 10px 0 rgba(157, 155, 155, 0);<br>
-}<br>
-/<em>选中方框</em>/<br>
-.c-container:hover {<br>
-border: 1px solid #e8e8e8ed;<br>
-background:#fffefe8a;<br>
-box-shadow: 5px 5px 10px 0 rgba(28, 28, 28, .85);<br>
-}</p>
-<p>/<em>多栏</em>/<br>
-.container_l, .op-img-star-divide-low &gt; a {<br>
-width: auto !important;<br>
-}</p>
-<p>#content_left {<br>
-width: 93%!important;<br>
-padding-left: 3.5%!important;<br>
-}<br>
-#content_left &gt; .c-container, #content_left &gt; [class^=&quot;result&quot;] {<br>
-display: block !important;<br>
-width: 31% !important;<br>
-min-width: 568px !important;<br>
-min-height: 116px !important;<br>
-float: left !important;<br>
-margin: 0.4% !important;<br>
-padding: 8px 5px 3px 5px !important;<br>
-table-layout: fixed !important;<br>
-border-collapse: separate !important;<br>
-overflow: hidden !important;<br>
-}</p>
-<p>.s_tab, .nums, .search_tool_conter, #rs, .to_tieba, .to_zhidao_bottom {<br>
-margin: 0 auto!important;<br>
-}</p>
-<p>#page, #s_tab {<br>
-padding-left: 0px !important;<br>
-text-align: center!important;<br>
-}</p>
-<p>body[link='#0000cc'] .s_form {<br>
-width:793px!important;<br>
-margin:0 auto !important;<br>
-transform:translatex(-260px);<br>
-}</p>
-<p>#content_right, .c-recommend, body &gt; div[class=&quot;result-op xpath-log&quot;], #content_left &gt; * {<br>
-display: none !important;<br>
-}</p>
-<p>/* 搜索标题 <em>/<br>
-.t a,p a,#rs a,#rs_top_new a,.hint_toprq_tips_items div a,.c-title a{<br>
-color:#040404de!important;<br>
-text-decoration:none;<br>
-}<br>
-/</em> 新闻搜索 标题 */<br>
-.c-title{<br>
-font-size:18px;<br>
-font-weight:normal;<br>
-}</p>
-<p>.t a em,.c-title a em{<br>
-/*     color:#4E4E4E!important; */<br>
-text-decoration:none;<br>
-}<br>
-.t a:hover,p a:hover,#rs a:hover,.res-gap-right16:hover,.c-abstract a:hover,.hint_toprq_tips_items div a:hover,.c-title a:hover{<br>
-color:#b90006!important;<br>
-text-decoration:none;<br>
-}<br>
-.op-mapcity-btm a:hover{<br>
-color:white!important;<br>
-}<br>
-.t a:hover em,.c-title a:hover em{<br>
-color:#aa0101!important;<br>
-}</p>
-<p>/* 介绍字体及颜色 */<br>
-.c-abstract,.c-abstract a,.op_offical_weibo_name,.op_offical_weibo_detail,.op_offical_weibo_pz a,.op_offical_weibo_other a,.c-row,.c-more_link,.op_tour_aim_tip span a,.op-koubei2-comt,.op-koubei2-more a,.op_weather4_twoicon_aa,.op_weather4_twoicon_close, .op_weather4_twoicon_open,.op_sp_realtime_bigpic5_list_info a,.op_sp_realtime_bigpic5_subTitle_con a,.op_sp_realtime_bigpic5_first_abs a{<br>
-color:#2b1400b5!important;<br>
-font-size: 12px;<br>
-text-decoration:none;<br>
-}</p>
-<p>/* 搜索结果标红 */<br>
-em,.c-row em,.c-abstract em,.c-offset a em,.result-op table tr td a em,.c-offset td a em,.op-tieba-general-lookmore a em,.c-gap-top-small a:hover,.opr-recommends-merge-more-btn:hover,.op_sp_realtime_bigpic5_first_abs a:hover{<br>
-color:#b3011b!important;<br>
-}</p>
-<p>.c-gap-left{<br>
-margin-left:0px;<br>
-}<br>
-.c-offset{<br>
-padding-left:0px;<br>
-}</p>
-<p>/<em>分类标签</em>/<br>
-.c-tabs-nav {<br>
-background-color: #EEEEEE;<br>
-}</p>
-<p>.c-tabs-nav-selected {<br>
-border-bottom: #F44336 2px solid !important;<br>
-background-color: #2196F3 !important;<br>
-color: #fff !important;<br>
-}</p>
-<p>a {<br>
-color: #4879BD;<br>
-}</p>
-<p>h3 a:hover {<br>
-border-bottom: #4879BD 1.2px solid;<br>
-}</p>
-<p>.c-showurl {<br>
-color: #532c029e;<br>
-}</p>
-<p>.op-se-listen-recommend:hover {<br>
-border-bottom: #4879BD 1.2px solid;<br>
-}</p>
-<p>.c-gap-bottom-small a:hover {<br>
-border-bottom: #4879BD 1.2px solid;<br>
-}<br>
-.c-row a:hover {<br>
-border-bottom: #4879BD 1.2px solid;<br>
-}<br>
-#rs a:hover {<br>
-border-bottom: #4879BD 1.2px solid;<br>
-}<br>
-.hint_toprq_tips_items a:hover {<br>
-border-bottom: #4879BD 1.2px solid;<br>
-}<br>
-.c:hover {<br>
-border-bottom: #4879BD 1.2px solid;<br>
-}</p>
-<p>em {<br>
-color: #EA4335;<br>
-}</p>
-<p>/<em>页面背景</em>/<br>
-body {<br>
-background-color: #eee0;<br>
-}</p>
-<p>/<em>页码</em>/<br>
-#page a{<br>
-background: #fff;<br>
-color: #42424282;<br>
-}</p>
-<p>#page a:hover{<br>
-background-color: #e0e0e0 !important;<br>
-}</p>
-<p>#page a .pc:hover {<br>
-background-color: #e0e0e0;<br>
-}</p>
-<p>#page strong {<br>
-background-color: #4285F4 !important;<br>
-color: #fff;<br>
-}</p>
-<p>#page strong .pc {<br>
-background-color: #4285F4 !important;<br>
-}</p>
-<p>.pc:hover {<br>
-background-color: #e0e0e0;<br>
-}</p>
-<p>#s_tab b {<br>
-border-bottom: 3px #4879BD solid;<br>
-color: #4879BD;<br>
-}</p>
-<p>#s_tab {<br>
-border-bottom: #e0e0e0 1px solid;<br>
-}</p>
-<p>.bdpfmenu a:hover {<br>
-background-color: #4879BD !important;<br>
-}</p>
-<p>.setpref:hover {<br>
-background-color: #4879BD !important;<br>
-}</p>
-<p>#u .lb {<br>
-background-color: #4879BD;<br>
-}</p>
-<p>#u .lb:hover {<br>
-background-color: #618CC7;<br>
-}</p>
-<p>#u .lb:active {<br>
-background-color: #7DA0D0;<br>
-}</p>
-<p>#bg {<br>
-background-color: #FFF !important;<br>
-background: #FFF;<br>
-}</p>
-<p>#u1 a.lb {<br>
-background-color: #4879BD;<br>
-}</p>
-<p>#u1 a.lb:hover {<br>
-background-color: #618CC7;<br>
-}</p>
-<p>#u1 a.lb:active {<br>
-background-color: #7DA0D0;<br>
-}</p>
-<p>#u_sp .s_bri {<br>
-background-color: #F44336;<br>
-}</p>
-<p>#s_username_top {<br>
-background-color: #e0e0e0;<br>
-}</p>
-<p>.s-user-set-menu a:hover {<br>
-background-color: #4879BD !important;<br>
-}</p>
-<p>#user {<br>
-background-color: #fff0;<br>
-}</p>
-<p>.msg-setting-btn {<br>
-background-color: #4879BD !important;<br>
-}<br>
-.no-use {<br>
-background-color: #E5E5E5 !important;<br>
-}</p>
-<p>.pass-text-input {<br>
-border-bottom: #e0e0e0 2px solid !important;<br>
-border-left: #fff 0px solid !important;<br>
-border-right: #fff 0px solid !important;<br>
-border-top: #fff 0px solid !important;<br>
-}</p>
-<p>.pass-text-input-focus {<br>
-border-bottom: #4879BD 2px solid !important;<br>
-border-left: #fff 0px solid !important;<br>
-border-right: #fff 0px solid !important;<br>
-border-top: #fff 0px solid !important;<br>
-}</p>
-<p>.tang-pass-pop-login-color-blue .pass-button {<br>
-background-color: #4879BD;<br>
-}<br>
-.tang-pass-pop-login-color-blue .pass-button:hover {<br>
-background-color: #618CC7;<br>
-}</p>
-<p>/<strong><strong>可以加一些自己的背景图片,替换引号内的内容为可外链的图片即可</strong></strong>/<br>
-body{<br>
-background-repeat: repeat-y;<br>
-background-size: 100%;<br>
-background-attachment:fixed;<br>
-background-image:<br>
-url('https://s1.ax1x.com/2020/08/08/a4gxRH.jpg');}<br>
-/<em><strong><strong>窗口背景的透明虚化效果</strong></strong></em>/<br>
-body&gt;#wrapper,body&gt;.wrap,body&gt;#main,body #appbar,body #hdtbSum{<br>
-background: rgba(225, 225, 225, 0);}</p>
-<p>body #head,body&gt;#page{<br>
-background: rgba(225, 225, 225, .21);}<br>
-/<em>头部</em>/<br>
-body #head{<br>
-background: #e8e6e6a1;</p>
-<p>}<br>
-/<em>颈部</em>/<br>
-body #s_tab {<br>
-background: #d50101;<br>
-}<br>
-body #color{<br>
-color: #fb0303;<br>
-background: #d50101<br>
-}</p>
-<p>''</p>
+<pre><code>.c-container {
+    border: 1px solid #F5F5F5;
+    border-radius: 1px;
+    padding: 25px;
+    transition: all 450ms cubic-bezier(0.01, 0.48, 0.47, 0.99) 0ms;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.05);
+}
+.c-container:hover {
+    border: 1px solid #B9D5FF;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.10);
+}
+
+
+/*未选中方框，边框，阴影*/
+.c-container {
+    border: 1px solid #fdfdfd00;
+    background:#fdfdfd26;
+    border-radius: 1px;
+    padding: 25px;
+    transition: all 450ms cubic-bezier(0.01, 0.48, 0.47, 0.99) 0ms;
+    box-shadow: 5px 5px 10px 0 rgba(157, 155, 155, 0);
+}
+/*选中方框*/
+.c-container:hover {
+    border: 1px solid #e8e8e8ed;
+    background:#fffefe8a;
+    box-shadow: 5px 5px 10px 0 rgba(28, 28, 28, .85);
+}
+
+/*多栏*/
+.container_l, .op-img-star-divide-low &gt; a {
+    width: auto !important;
+}
+
+#content_left {
+    width: 93%!important;
+    padding-left: 3.5%!important;
+}
+#content_left &gt; .c-container, #content_left &gt; [class^=&quot;result&quot;] {
+    display: block !important;
+    width: 31% !important;
+    min-width: 568px !important;
+    min-height: 116px !important;
+    float: left !important;
+    margin: 0.4% !important;
+    padding: 8px 5px 3px 5px !important;
+    table-layout: fixed !important;
+    border-collapse: separate !important;
+    overflow: hidden !important;
+}
+
+.s_tab, .nums, .search_tool_conter, #rs, .to_tieba, .to_zhidao_bottom {
+    margin: 0 auto!important;
+}
+
+#page, #s_tab {
+    padding-left: 0px !important;
+    text-align: center!important;
+}
+
+body[link='#0000cc'] .s_form {
+    width:793px!important;
+    margin:0 auto !important;
+    transform:translatex(-260px);
+}
+
+#content_right, .c-recommend, body &gt; div[class=&quot;result-op xpath-log&quot;], #content_left &gt; * {
+    display: none !important;
+}
+
+/* 搜索标题 */
+.t a,p a,#rs a,#rs_top_new a,.hint_toprq_tips_items div a,.c-title a{
+    color:#040404de!important;
+    text-decoration:none;
+}
+/* 新闻搜索 标题 */
+.c-title{
+font-size:18px;
+    font-weight:normal;
+}
+
+.t a em,.c-title a em{
+/*     color:#4E4E4E!important; */
+    text-decoration:none;
+}
+.t a:hover,p a:hover,#rs a:hover,.res-gap-right16:hover,.c-abstract a:hover,.hint_toprq_tips_items div a:hover,.c-title a:hover{
+color:#b90006!important;
+text-decoration:none;
+}
+.op-mapcity-btm a:hover{
+color:white!important;
+}
+.t a:hover em,.c-title a:hover em{
+color:#aa0101!important;
+}
+
+/* 介绍字体及颜色 */
+.c-abstract,.c-abstract a,.op_offical_weibo_name,.op_offical_weibo_detail,.op_offical_weibo_pz a,.op_offical_weibo_other a,.c-row,.c-more_link,.op_tour_aim_tip span a,.op-koubei2-comt,.op-koubei2-more a,.op_weather4_twoicon_aa,.op_weather4_twoicon_close, .op_weather4_twoicon_open,.op_sp_realtime_bigpic5_list_info a,.op_sp_realtime_bigpic5_subTitle_con a,.op_sp_realtime_bigpic5_first_abs a{
+    color:#2b1400b5!important;
+    font-size: 12px;
+    text-decoration:none;
+}
+
+/* 搜索结果标红 */
+em,.c-row em,.c-abstract em,.c-offset a em,.result-op table tr td a em,.c-offset td a em,.op-tieba-general-lookmore a em,.c-gap-top-small a:hover,.opr-recommends-merge-more-btn:hover,.op_sp_realtime_bigpic5_first_abs a:hover{
+color:#b3011b!important;
+}
+
+
+.c-gap-left{
+margin-left:0px;
+}
+.c-offset{
+padding-left:0px;
+}
+
+/*分类标签*/
+.c-tabs-nav {
+               background-color: #EEEEEE;
+}
+
+.c-tabs-nav-selected {
+               border-bottom: #F44336 2px solid !important;
+	           background-color: #2196F3 !important;
+               color: #fff !important;
+}
+
+
+a {
+               color: #4879BD;
+}
+
+h3 a:hover {
+               border-bottom: #4879BD 1.2px solid;
+}
+
+.c-showurl {
+               color: #532c029e;
+}
+
+.op-se-listen-recommend:hover {
+               border-bottom: #4879BD 1.2px solid;
+}
+
+.c-gap-bottom-small a:hover {
+               border-bottom: #4879BD 1.2px solid;
+}
+.c-row a:hover {
+               border-bottom: #4879BD 1.2px solid;
+}
+#rs a:hover {
+               border-bottom: #4879BD 1.2px solid;
+}
+.hint_toprq_tips_items a:hover {
+               border-bottom: #4879BD 1.2px solid;
+}
+.c:hover {
+               border-bottom: #4879BD 1.2px solid;
+}
+
+em {
+               color: #EA4335;
+}
+
+
+/*页面背景*/
+body {
+               background-color: #eee0;
+}
+
+/*页码*/
+#page a{
+	           background: #fff;
+	           color: #42424282;
+}
+
+#page a:hover{
+               background-color: #e0e0e0 !important;
+}
+
+#page a .pc:hover {
+               background-color: #e0e0e0;
+}
+
+#page strong {
+               background-color: #4285F4 !important;
+               color: #fff;
+}
+
+#page strong .pc {
+               background-color: #4285F4 !important;
+}
+
+.pc:hover {
+               background-color: #e0e0e0;
+}
+
+#s_tab b {
+               border-bottom: 3px #4879BD solid;
+               color: #4879BD;
+}
+
+#s_tab {
+               border-bottom: #e0e0e0 1px solid;
+}
+
+.bdpfmenu a:hover {
+               background-color: #4879BD !important;
+}
+
+.setpref:hover {
+               background-color: #4879BD !important;
+}
+
+#u .lb {
+               background-color: #4879BD;
+}
+
+#u .lb:hover {
+               background-color: #618CC7;
+}
+
+#u .lb:active {
+               background-color: #7DA0D0;
+}
+
+#bg {
+               background-color: #FFF !important;
+               background: #FFF;
+}
+
+#u1 a.lb {
+               background-color: #4879BD;
+}
+
+#u1 a.lb:hover {
+               background-color: #618CC7;
+}
+
+#u1 a.lb:active {
+               background-color: #7DA0D0;
+}
+
+#u_sp .s_bri {
+               background-color: #F44336;
+}
+
+#s_username_top {
+               background-color: #e0e0e0;
+}
+
+.s-user-set-menu a:hover {
+               background-color: #4879BD !important;
+}
+
+#user {
+               background-color: #fff0;
+}
+
+.msg-setting-btn {
+               background-color: #4879BD !important;
+}
+.no-use {
+               background-color: #E5E5E5 !important;
+}
+
+.pass-text-input {
+               border-bottom: #e0e0e0 2px solid !important;
+               border-left: #fff 0px solid !important;
+               border-right: #fff 0px solid !important;
+               border-top: #fff 0px solid !important;
+}
+
+.pass-text-input-focus {
+               border-bottom: #4879BD 2px solid !important;
+               border-left: #fff 0px solid !important;
+               border-right: #fff 0px solid !important;
+               border-top: #fff 0px solid !important;
+}              
+
+.tang-pass-pop-login-color-blue .pass-button {
+               background-color: #4879BD;
+}
+.tang-pass-pop-login-color-blue .pass-button:hover {
+               background-color: #618CC7;
+}
+
+/****可以加一些自己的背景图片,替换引号内的内容为可外链的图片即可****/
+body{    
+    background-repeat: repeat-y;    
+    background-size: 100%;    
+    background-attachment:fixed;    
+    background-image: 
+        url('https://s1.ax1x.com/2020/08/08/a4gxRH.jpg');}
+/*****窗口背景的透明虚化效果*****/
+body&gt;#wrapper,body&gt;.wrap,body&gt;#main,body #appbar,body #hdtbSum{    
+    background: rgba(225, 225, 225, 0);}
+
+body #head,body&gt;#page{    
+    background: rgba(225, 225, 225, .21);}
+/*头部*/
+body #head{
+     background: #e8e6e6a1;
+
+}
+/*颈部*/
+body #s_tab {
+	  background: #d50101;
+}
+body #color{
+    color: #fb0303;
+    background: #d50101
+ }  
+
+</code></pre>
 <figure data-type="image" tabindex="1"><img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=319307463,3903230823&amp;fm=26&amp;gp=0.jpg" alt="end" loading="lazy"></figure>
 
                                 </div>
@@ -418,7 +471,7 @@ background: #d50101<br>
                                 <!-- id-card -->
                                 
     <div class="id_card i-card">
-        <div class="id_card-avatar" style="background-image: url(https://orange-sketch.top/images/avatar.png?v=1597366356384)">
+        <div class="id_card-avatar" style="background-image: url(https://orange-sketch.top/images/avatar.png?v=1597370251631)">
         </div>
         <h1 class="id_card-title">
             枼の華
