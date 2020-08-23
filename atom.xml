@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://orange-sketch.top</id>
     <title>枼の華</title>
-    <updated>2020-08-22T12:19:26.056Z</updated>
+    <updated>2020-08-23T11:23:35.873Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://orange-sketch.top"/>
     <link rel="self" href="https://orange-sketch.top/atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>https://orange-sketch.top/images/avatar.png</logo>
     <icon>https://orange-sketch.top/favicon.ico</icon>
     <rights>All rights reserved 2020, 枼の華</rights>
+    <entry>
+        <title type="html"><![CDATA[虚拟机]]></title>
+        <id>https://orange-sketch.top/81FXjeqTu/</id>
+        <link href="https://orange-sketch.top/81FXjeqTu/">
+        </link>
+        <updated>2020-08-22T12:33:57.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>虚拟机是个好东西，里面可以安装各种类型的操作系统，从而不受硬件限制。</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>虚拟机是个好东西，里面可以安装各种类型的操作系统，从而不受硬件限制。</p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[实用网站]]></title>
         <id>https://orange-sketch.top/8rqciJKxf/</id>
@@ -142,21 +157,6 @@
 ]]></summary>
         <content type="html"><![CDATA[<blockquote>
 <p>折腾了大半天，小破站终于拥有了名字。</p>
-</blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[markdown图床 ]]></title>
-        <id>https://orange-sketch.top/8ljY_MJPk/</id>
-        <link href="https://orange-sketch.top/8ljY_MJPk/">
-        </link>
-        <updated>2020-07-10T03:52:57.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote>
-<p>图床，是专门储存图片的空间。</p>
-</blockquote>
-]]></summary>
-        <content type="html"><![CDATA[<blockquote>
-<p>图床，是专门储存图片的空间。</p>
 </blockquote>
 ]]></content>
     </entry>
