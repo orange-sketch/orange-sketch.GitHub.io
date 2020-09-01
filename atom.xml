@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://orange-sketch.top</id>
     <title>枼の華</title>
-    <updated>2020-09-01T10:37:10.125Z</updated>
+    <updated>2020-09-01T11:12:02.297Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://orange-sketch.top"/>
     <link rel="self" href="https://orange-sketch.top/atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>https://orange-sketch.top/images/avatar.png</logo>
     <icon>https://orange-sketch.top/favicon.ico</icon>
     <rights>All rights reserved 2020, 枼の華</rights>
+    <entry>
+        <title type="html"><![CDATA[flash player]]></title>
+        <id>https://orange-sketch.top/jdwVWT94U/</id>
+        <link href="https://orange-sketch.top/jdwVWT94U/">
+        </link>
+        <updated>2020-09-01T10:40:07.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>一款令人难忘的播放器插件。</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>一款令人难忘的播放器插件。</p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[一言]]></title>
         <id>https://orange-sketch.top/5H7KzN81Q/</id>
@@ -142,21 +157,6 @@
 ]]></summary>
         <content type="html"><![CDATA[<blockquote>
 <p>该软件拥有ios和安卓两个版本，视频源稳定，可长久使用。</p>
-</blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[动态演示]]></title>
-        <id>https://orange-sketch.top/Qtfgih5Mh/</id>
-        <link href="https://orange-sketch.top/Qtfgih5Mh/">
-        </link>
-        <updated>2020-07-25T13:06:27.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote>
-<p>MarkDown支持内嵌HTML语言，所以如果想要插入视频直接使用HTML标签即可。</p>
-</blockquote>
-]]></summary>
-        <content type="html"><![CDATA[<blockquote>
-<p>MarkDown支持内嵌HTML语言，所以如果想要插入视频直接使用HTML标签即可。</p>
 </blockquote>
 ]]></content>
     </entry>
