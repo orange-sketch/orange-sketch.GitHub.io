@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://orange-sketch.top</id>
     <title>枼の華</title>
-    <updated>2020-08-31T10:09:30.640Z</updated>
+    <updated>2020-09-01T06:54:49.665Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://orange-sketch.top"/>
     <link rel="self" href="https://orange-sketch.top/atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>https://orange-sketch.top/images/avatar.png</logo>
     <icon>https://orange-sketch.top/favicon.ico</icon>
     <rights>All rights reserved 2020, 枼の華</rights>
+    <entry>
+        <title type="html"><![CDATA[win10系统工具]]></title>
+        <id>https://orange-sketch.top/sD13hU_p7/</id>
+        <link href="https://orange-sketch.top/sD13hU_p7/">
+        </link>
+        <updated>2020-09-01T05:58:29.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>win10系统是一个相对完善的操作系统，具有广大的用户数……</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>win10系统是一个相对完善的操作系统，具有广大的用户数……</p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[驱动那些事……]]></title>
         <id>https://orange-sketch.top/3sio07PC3/</id>
@@ -142,21 +157,6 @@
 ]]></summary>
         <content type="html"><![CDATA[<blockquote>
 <p>此“小公举(具)”非彼小公举哦。</p>
-</blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[简约系]]></title>
-        <id>https://orange-sketch.top/ksG7QnBd3/</id>
-        <link href="https://orange-sketch.top/ksG7QnBd3/">
-        </link>
-        <updated>2020-07-22T11:08:53.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote>
-<p>简而不失其华。约不显其涩，这才是我们现在需要的。</p>
-</blockquote>
-]]></summary>
-        <content type="html"><![CDATA[<blockquote>
-<p>简而不失其华。约不显其涩，这才是我们现在需要的。</p>
 </blockquote>
 ]]></content>
     </entry>
