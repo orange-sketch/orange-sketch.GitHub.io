@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://orange-sketch.top</id>
     <title>枼の華</title>
-    <updated>2020-09-20T12:50:08.096Z</updated>
+    <updated>2020-09-20T14:39:32.622Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://orange-sketch.top"/>
     <link rel="self" href="https://orange-sketch.top/atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>https://orange-sketch.top/images/avatar.png</logo>
     <icon>https://orange-sketch.top/favicon.ico</icon>
     <rights>All rights reserved 2020, 枼の華</rights>
+    <entry>
+        <title type="html"><![CDATA[ZY player]]></title>
+        <id>https://orange-sketch.top/lQIVJrI_Q/</id>
+        <link href="https://orange-sketch.top/lQIVJrI_Q/">
+        </link>
+        <updated>2020-09-20T13:15:20.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>一款强大的在线播放器</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>一款强大的在线播放器</p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[性教育]]></title>
         <id>https://orange-sketch.top/kQAYPUGCg/</id>
@@ -142,21 +157,6 @@
 ]]></summary>
         <content type="html"><![CDATA[<blockquote>
 <p>携手共创美好未来！</p>
-</blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DNS优选]]></title>
-        <id>https://orange-sketch.top/zUfF_OELv/</id>
-        <link href="https://orange-sketch.top/zUfF_OELv/">
-        </link>
-        <updated>2020-08-17T05:09:05.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote>
-<p>选择了一个合适的服务器才能提高访问速度。</p>
-</blockquote>
-]]></summary>
-        <content type="html"><![CDATA[<blockquote>
-<p>选择了一个合适的服务器才能提高访问速度。</p>
 </blockquote>
 ]]></content>
     </entry>
