@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://orange-sketch.top</id>
     <title>枼の華</title>
-    <updated>2020-12-14T07:57:19.822Z</updated>
+    <updated>2020-12-14T08:25:45.370Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://orange-sketch.top"/>
     <link rel="self" href="https://orange-sketch.top/atom.xml"/>
@@ -26,7 +26,7 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[win+r cmd]]></title>
+        <title type="html"><![CDATA[cmd]]></title>
         <id>https://orange-sketch.top/FpZXhV9HM/</id>
         <link href="https://orange-sketch.top/FpZXhV9HM/">
         </link>
