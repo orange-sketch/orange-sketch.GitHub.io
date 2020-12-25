@@ -7,7 +7,7 @@
 <title>
     关于 | 枼の華
 </title>
-<link rel="shortcut icon" href="https://orange-sketch.top/favicon.ico?v=1608897777142">
+<link rel="shortcut icon" href="https://orange-sketch.top/favicon.ico?v=1608898999641">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
 <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
@@ -40,7 +40,7 @@
     <div class="nav">
         <div class="logo">
             <a href="https://orange-sketch.top">
-                <img class="avatar" src="https://orange-sketch.top/images/avatar.png?v=1608897777142" alt="">
+                <img class="avatar" src="https://orange-sketch.top/images/avatar.png?v=1608898999641" alt="">
             </a>
             <div class="site-title">
                 <h1>
@@ -132,13 +132,33 @@
 <p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
 </blockquote>
 <!-- more -->
-<p>  偶尔会忘了密码🌼，想起来时会更新一下，热衷于技术和文学🍋；能力有限，文章有疏漏之处请指出❤️，如果你有好的文章也可以分享给大家🌈！<br>
- <br>
+<h2 id="u沙雕u"><u><strong>沙雕</strong></u></h2>
+<p>一名大学生，还是计算机爱好者。</p>
+<h2 id="u技能u"><u><strong>技能</strong></u></h2>
+<ul>
+<li>
+<p>简单的网页开发</p>
+</li>
+<li>
+<p>游戏爱好者</p>
+</li>
+<li>
+<p>能用Ps、Pr、AE</p>
+</li>
+<li>
+<p>会用Office</p>
+</li>
+</ul>
+<h2 id="u工作经历u"><u><strong>工作经历</strong></u></h2>
+<p>1.<a href="https://orange-sketch.top/" target="_blank"> <u> blog </u> </a><br>
+2.[主页]（<a href="https://orange-sketch.top/"> <u> https://orange-sketch.top/ </u> </a>）<br>
+3.emmm…</p>
+<table><tr><td bgcolor=#cdcfcd> <center> 如果网站无意侵犯到您的合法权益，请及时联系管理员作删贴处理。<center>  </td></tr></table> 
+<p> <br>
                                          <em>&gt;<a href="https://gitee.com/lichangle/pic/raw/master/weixin_副本.png" target=“_blank”> 赞助我</a> <em> </em>&gt;<a href="https://huahuaedu.github.io" target=“_blank”> 访问achang镜像站</a></em></p>
 <p><a target="_blank" href="https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=BGt2ZWpjYVt3b2FwZ2xEdXUqZ2tp" style="text-decoration:none;"><img src="http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_01.png"/></a></p>
-<p> <br>
- </p>
-<table><tr><td bgcolor=#cdcfcd>如果网站无意侵犯到您的合法权益，请及时联系管理员作删贴处理。</td></tr></table>
+<p> </p>
+
                                 </div>
                     </article>
                     <!--  -->
@@ -151,32 +171,48 @@
                 <!-- right -->
                 <div id="sidebar" class="main-container-right">
                     
-                                <!-- id-card -->
-                                
-    <div class="id_card i-card">
-        <div class="id_card-avatar" style="background-image: url(https://orange-sketch.top/images/avatar.png?v=1608897777142)">
-        </div>
-        <h1 class="id_card-title">
-            枼の華
-        </h1>
-        <h2 class="id_card-description">
-            一直走，莫回頭。
-        </h2>
-        <!--  -->
-        <div class="id_card-sns">
-            <!-- github -->
-            
-                    <!-- twitter -->
-                    
-                            <!-- weibo -->
-                            
-                                    <!-- facebook -->
-                                    
+                        <!-- toc -->
+                        
+    <div class="toc-card i-card ">
+        <div class="toc-title i-card-title">目录</div>
+        <div class="toc-content">
+            <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#u%E6%B2%99%E9%9B%95u"><u><strong>沙雕</strong></u></a></li>
+<li><a href="#u%E6%8A%80%E8%83%BDu"><u><strong>技能</strong></u></a></li>
+<li><a href="#u%E5%B7%A5%E4%BD%9C%E7%BB%8F%E5%8E%86u"><u><strong>工作经历</strong></u></a></li>
+</ul>
+</li>
+</ul>
 
         </div>
+        <script>
+            function locateCatelogList() {
+                /*获取文章目录集合,可通过:header过滤器*/
+                var alis = $('.post-content :header');
+                /*获取侧边栏目录列表集合**/
+                var sidebar_alis = $('.markdownIt-TOC a');
+                /*获取滚动条到顶部的距离*/
+                var scroll_height = $(window).scrollTop();
+                for (var i = 0; i < alis.length; i++) {
+                    /*获取锚点集合中的元素分别到顶点的距离*/
+                    var a_height = $(alis[i]).offset().top;
+                    if (a_height < scroll_height) {
+                        /*高亮显示*/
+                        sidebar_alis.removeClass('on');
+                        $(sidebar_alis[i]).addClass('on');
+                    }
+                }
+            }
+            $(function() {
+                /*绑定滚动事件 */
+                $(window).bind('scroll', locateCatelogList);
+            });
+        </script>
     </div>
     
-                                    
+                            
 
                 </div>
 
