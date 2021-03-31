@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://orange-sketch.top</id>
     <title>枼の華</title>
-    <updated>2021-03-31T09:38:00.123Z</updated>
+    <updated>2021-03-31T09:39:30.037Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://orange-sketch.top"/>
     <link rel="self" href="https://orange-sketch.top/atom.xml"/>
@@ -10,21 +10,6 @@
     <logo>https://orange-sketch.top/images/avatar.png</logo>
     <icon>https://orange-sketch.top/favicon.ico</icon>
     <rights>All rights reserved 2021, 枼の華</rights>
-    <entry>
-        <title type="html"><![CDATA[每日一言]]></title>
-        <id>https://orange-sketch.top/IgVD0c3JD/</id>
-        <link href="https://orange-sketch.top/IgVD0c3JD/">
-        </link>
-        <updated>2021-03-31T09:07:01.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote>
-<p>提示语</p>
-</blockquote>
-]]></summary>
-        <content type="html"><![CDATA[<blockquote>
-<p>提示语</p>
-</blockquote>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[实用网站]]></title>
         <id>https://orange-sketch.top/8rqciJKxf/</id>
@@ -157,6 +142,21 @@
 ]]></summary>
         <content type="html"><![CDATA[<blockquote>
 <p>唯有美食不可辜负</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[fusion专区]]></title>
+        <id>https://orange-sketch.top/RP8c0_01Q/</id>
+        <link href="https://orange-sketch.top/RP8c0_01Q/">
+        </link>
+        <updated>2020-11-14T13:56:06.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>web转应用</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>web转应用</p>
 </blockquote>
 ]]></content>
     </entry>
