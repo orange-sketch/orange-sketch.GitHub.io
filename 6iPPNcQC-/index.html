@@ -7,7 +7,7 @@
 <title>
     html背景特效 | 枼の華
 </title>
-<link rel="shortcut icon" href="https://orange-sketch.top/favicon.ico?v=1617190206645">
+<link rel="shortcut icon" href="https://orange-sketch.top/favicon.ico?v=1617245831805">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
 <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
@@ -40,7 +40,7 @@
     <div class="nav">
         <div class="logo">
             <a href="https://orange-sketch.top">
-                <img class="avatar" src="https://orange-sketch.top/images/avatar.png?v=1617190206645" alt="">
+                <img class="avatar" src="https://orange-sketch.top/images/avatar.png?v=1617245831805" alt="">
             </a>
             <div class="site-title">
                 <h1>
@@ -117,12 +117,12 @@
                             <time class="post-time">2021-03-31</time>
                             
                                 <a href="https://orange-sketch.top/n00dHNbEJ/" class="post-tag i-tag
-                            i-tag-banana">
+                            i-tag-primary">
                             #学习
                         </a>
                                 
                                 <a href="https://orange-sketch.top/38xKl0Sipv/" class="post-tag i-tag
-                            i-tag-info">
+                            i-tag-other_4">
                             #应用
                         </a>
                                 
@@ -163,6 +163,52 @@ height: 120px;
 </code></pre>
 <h2 id="6雪花飘飘">6.雪花飘飘</h2>
 <pre><code>&lt;script src='https://api.vvhan.com/api/snow'&gt;&lt;/script&gt;
+
+</code></pre>
+<h2 id="7全站变灰">7.全站变灰</h2>
+<pre><code>&lt;head&gt;
+&lt;!–[if IE]&gt;
+ 
+&lt;style&gt;
+ 
+html { filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); }
+ 
+&lt;/style&gt;
+ 
+&lt;!–&lt;![endif]–&gt;
+ 
+&lt;!–[if !IE]&gt;&lt;–&gt;
+ 
+&lt;style&gt;
+ 
+html{
+ 
+filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+ 
+filter: grayscale(100%);
+ 
+-webkit-filter: grayscale(100%);
+ 
+-moz-filter: grayscale(100%);
+ 
+-ms-filter: grayscale(100%);
+ 
+-o-filter: grayscale(100%);
+ 
+filter: url(“data:image/svg+xml;utf8,&lt;svg xmlns=\”http://www.w3.org/2000/svg\”&gt;&lt;filter ….3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\”/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale”);
+ 
+filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+ 
+filter: gray;
+ 
+-webkit-filter: grayscale(1);
+ 
+}
+ 
+&lt;/style&gt;
+ 
+&lt;!–&lt;![endif]–&gt;
+&lt;/head&gt;
 
 </code></pre>
 <figure data-type="image" tabindex="1"><img src="https://gitee.com/lichangle/pic/raw/master/littlecat.webp" alt="cat" loading="lazy"></figure>
@@ -227,6 +273,7 @@ head.appendChild(script);
 <li><a href="#4%E6%B3%A2%E6%B5%AA%E6%BB%9A%E6%BB%9A">4.波浪滚滚</a></li>
 <li><a href="#5%E6%98%A5%E8%8A%82%E7%81%AF%E7%AC%BC">5.春节灯笼</a></li>
 <li><a href="#6%E9%9B%AA%E8%8A%B1%E9%A3%98%E9%A3%98">6.雪花飘飘</a></li>
+<li><a href="#7%E5%85%A8%E7%AB%99%E5%8F%98%E7%81%B0">7.全站变灰</a></li>
 </ul>
 </li>
 </ul>
