@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://orange-sketch.top</id>
     <title>枼の華</title>
-    <updated>2021-04-10T11:23:04.896Z</updated>
+    <updated>2021-04-11T07:53:27.640Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://orange-sketch.top"/>
     <link rel="self" href="https://orange-sketch.top/atom.xml"/>
@@ -10,6 +10,36 @@
     <logo>https://orange-sketch.top/images/avatar.png</logo>
     <icon>https://orange-sketch.top/favicon.ico</icon>
     <rights>All rights reserved 2021, 枼の華</rights>
+    <entry>
+        <title type="html"><![CDATA[虚拟摄像头]]></title>
+        <id>https://orange-sketch.top/eohHOHMJZ/</id>
+        <link href="https://orange-sketch.top/eohHOHMJZ/">
+        </link>
+        <updated>2021-04-11T03:17:47.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>一起来躁动~</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>一起来躁动~</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[X5内核部署]]></title>
+        <id>https://orange-sketch.top/ZMFZxCARw/</id>
+        <link href="https://orange-sketch.top/ZMFZxCARw/">
+        </link>
+        <updated>2021-04-11T03:16:55.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>支持应用内播放</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>支持应用内播放</p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[虚拟定位]]></title>
         <id>https://orange-sketch.top/mXnY9npva/</id>
@@ -127,36 +157,6 @@
 ]]></summary>
         <content type="html"><![CDATA[<blockquote>
 <p>为你提供线上办公</p>
-</blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[薅羊毛啦~]]></title>
-        <id>https://orange-sketch.top/OQ8zBsKMU/</id>
-        <link href="https://orange-sketch.top/OQ8zBsKMU/">
-        </link>
-        <updated>2020-12-20T12:33:47.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote>
-<p>限时福利</p>
-</blockquote>
-]]></summary>
-        <content type="html"><![CDATA[<blockquote>
-<p>限时福利</p>
-</blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[快捷键]]></title>
-        <id>https://orange-sketch.top/lCHJDENY3/</id>
-        <link href="https://orange-sketch.top/lCHJDENY3/">
-        </link>
-        <updated>2020-12-14T06:34:14.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote>
-<p>键盘快捷方式</p>
-</blockquote>
-]]></summary>
-        <content type="html"><![CDATA[<blockquote>
-<p>键盘快捷方式</p>
 </blockquote>
 ]]></content>
     </entry>
