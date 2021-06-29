@@ -5,7 +5,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
-    给我留言-在这里留下您的问题或建议 | 枼の華
+    开启组策略 | 枼の華
 </title>
 <link rel="shortcut icon" href="https://orange-sketch.top/favicon.ico?v=1624968784166">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
@@ -119,16 +119,69 @@
                 <div id="content" class="main-container-left">
                     <article class="post i-card">
                         <h2 class="post-title">
-                            给我留言-在这里留下您的问题或建议
+                            开启组策略
                         </h2>
                         <div class="post-info">
-                            <time class="post-time">2019-01-25</time>
+                            <time class="post-time">2021-06-29</time>
                             
+                                <a href="https://orange-sketch.top/LX6bLZKRdM/" class="post-tag i-tag
+                            i-tag-success">
+                            #技术
+                        </a>
+                                
+                                <a href="https://orange-sketch.top/38xKl0Sipv/" class="post-tag i-tag
+                            i-tag-other_1">
+                            #应用
+                        </a>
+                                
                         </div>
                         
+                            <div class="post-feature-image" style="background-image: url('https://gitee.com/lichangle/pic/raw/master/zu7.jpg')"></div>
+                            
                                 <div class="post-content">
-                                    <figure data-type="image" tabindex="1"><img src="https://gitee.com/lichangle/pic/raw/master/liuyan.jpg" alt="liuyan" loading="lazy"></figure>
-<body>
+                                    <blockquote>
+<p>gpedit.msc</p>
+</blockquote>
+<!-- more -->
+<p>  组策略就是对注册表的一种简单编译，有助于我们更好的控制自己的电脑。组策略只有专业版才有，采用以下方法，不必升级系统，家庭版也可使用啦。</p>
+<p>  方法其实很简单<br>
+  <strong>第一步： 新建文本文档，复制以下代码后保存</strong></p>
+<pre><code>
+@echo off
+
+pushd &quot;%~dp0&quot;
+
+dir /b C:\Windows\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientExtensions-Package~3*.mum &gt;List.txt
+
+dir /b C:\Windows\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientTools-Package~3*.mum &gt;&gt;List.txt
+
+for /f %%i in ('findstr /i . List.txt 2^&gt;nul') do dism /online /norestart /add-package:&quot;C:\Windows\servicing\Packages\%%i&quot;
+
+pause
+
+</code></pre>
+<figure data-type="image" tabindex="1"><img src="https://gitee.com/lichangle/pic/raw/master/zu0.jpg" alt="zu0" loading="lazy"></figure>
+<p>  <strong>第二步：修改文本文档后缀“txt”为“cmd”</strong></p>
+<figure data-type="image" tabindex="2"><img src="https://gitee.com/lichangle/pic/raw/master/zu1.jpg" alt="zu1" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://gitee.com/lichangle/pic/raw/master/zu2.jpg" alt="zu2" loading="lazy"></figure>
+<p>  <strong>第三步：右击该文件，以管理员身份运行</strong></p>
+<figure data-type="image" tabindex="4"><img src="https://gitee.com/lichangle/pic/raw/master/zu3.jpg" alt="zu3" loading="lazy"></figure>
+<p>  等待运行完成后，快捷键“<strong>win+r</strong>”调出运行窗口，输入“<strong>gpedit.msc</strong>”后确定，即可看到新添加的组策略</p>
+<figure data-type="image" tabindex="5"><img src="https://gitee.com/lichangle/pic/raw/master/zu4.jpg" alt="zu4" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://gitee.com/lichangle/pic/raw/master/zu5.jpg" alt="zu5" loading="lazy"></figure>
+<hr>
+<p>下载地址：</p>
+<p>  <a href="https://sketch.lanzoui.com/iiFt1qtr3pa" target="_blank">组策略</a></p>
+<hr>
+<figure data-type="image" tabindex="7"><img src="https://gitee.com/lichangle/pic/raw/master/zu6.jpg" alt="end" loading="lazy"></figure>
+<!-- 代码1：放在页面需要展示的位置  -->
+<!-- 如果您配置过sourceid，建议在div标签中配置sourceid、cid(分类id)，没有请忽略  -->
+<div id="cyEmoji" role="cylabs" data-use="emoji"></div>
+<!-- 代码2：用来读取评论框配置，此代码需放置在代码1之后。 -->
+<!-- 如果当前页面有评论框，代码2请勿放置在评论框代码之前。 -->
+<!-- 如果页面同时使用多个实验室项目，以下代码只需要引入一次，只配置上面的div标签即可 -->
+<script type="text/javascript" charset="utf-8" src="https://cy-cdn.kuaizhan.com/js/??lib/jquery.js,changyan.labs.https.js?appid=cyvj6OQGs"></script>
+ <body>
  <!--PC和WAP自适应版评论系统-->
 <div id="SOHUCS" ></div> 
 <script type="text/javascript"> 
@@ -146,86 +199,20 @@ script.src = 'https://cy-cdn.kuaizhan.com/upload/mobile/wap-js/changyan_mobile.j
 head.appendChild(script);
 } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://cy-cdn.kuaizhan.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
  </body>
-<!-- 代码1：放在页面需要展示的位置  -->
-<!-- 如果您配置过sourceid，建议在div标签中配置sourceid、cid(分类id)，没有请忽略  -->
-<div id="cyReward" role="cylabs" data-use="reward"></div>
-<!-- 代码2：用来读取评论框配置，此代码需放置在代码1之后。 -->
-<!-- 如果当前页面有评论框，代码2请勿放置在评论框代码之前。 -->
-<!-- 如果页面同时使用多个实验室项目，以下代码只需要引入一次，只配置上面的div标签即可 -->
-<script type="text/javascript" charset="utf-8" src="https://cy-cdn.kuaizhan.com/js/??lib/jquery.js,changyan.labs.https.js?appid=cyvj6OQGs"></script>
-<table><tr><td bgcolor=#cdcfcd> 
-<p><strong>免责声明：</strong></p>
-<p>  本站提供的资源，都来自网络，版权争议与本站无关，所有内容及软件的文章仅限用于学习和研究目的。不得将上述内容用于商业或者非法用途，否则，一切后果请用户自负，我们不保证内容的长久可用性，通过使用本站内容随之而来的风险与本站无关，您必须在下载后的24个小时之内，从您的电脑中彻底删除上述内容。如果您喜欢该程序，请支持正版软件，购买注册，得到更好的正版服务。侵删请致信E-mail：orange_sketch@qq.com</td></tr></table></p>
-<figure data-type="image" tabindex="2"><img src="https://gitee.com/lichangle/pic/raw/master/chicken.jpg" alt="end" loading="lazy"></figure>
-<hr>
- <!-- 蒲公英 -->
-<div class="dandelion">
-  <span class="smalldan"></span>
-  <span class="bigdan"></span>
-</div>
-<style type="text/css">
-@media screen and (max-width:600px){
-.dandelion{display: none !important;}
-}
- .dandelion .smalldan {
-width: 36px;
-height: 60px;
-left: 88px;   
-background-position: 0 -90px;
-border: 0px solid red;
-}
-.dandelion span {
--webkit-animation: ball-x 3s linear 2s infinite;
- -moz-animation: ball-x 3s linear 2s infinite;
- animation: ball-x 3s linear 2s infinite;
--webkit-transform-origin: bottom center;
- -moz-transform-origin: bottom center;
- transform-origin: bottom center;
-}
-.dandelion span {
-display: block;
-position: fixed;
-z-index:9999999999;
-bottom: 0px;
-background-image: url(http://www.12580sky.com/content/uploadfile/201610/45da1476877560.png);
-background-repeat: no-repeat;
-_background: none;
-}
-.dandelion .bigdan {
-width: 64px;
-height: 115px;
-left: 41px;
-background-position: -86px -36px;
-border: 0px solid red;
-}
-@keyframes ball-x {
- 0% { transform:rotate(0deg);}
- 25% { transform:rotate(5deg); }
- 50% { transform:rotate(0deg);}
- 75% { transform:rotate(-5deg);}
- 100% { transform:rotate(0deg);}  
-}
-@-webkit-keyframes ball-x {
- 0% { -webkit-transform:rotate(0deg);}
- 25% { -webkit-transform:rotate(5deg); }
- 50% { -webkit-transform:rotate(0deg);}
- 75% { -webkit-transform:rotate(-5deg);}
- 100% { -webkit-transform:rotate(0deg);}
-}
-@-moz-keyframes ball-x {
- 0% { -moz-transform:rotate(0deg);}
- 25% { -moz-transform:rotate(5deg); }
- 50% { -moz-transform:rotate(0deg);}
- 75% { -moz-transform:rotate(-5deg);}
- 100% { -moz-transform:rotate(0deg);}
-}
-</style>
-<p><a target="_blank" href="https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=BGt2ZWpjYVt3b2FwZ2xEdXUqZ2tp" style="text-decoration:none;"><img src="http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_01.png"/></a></p>
 
                                 </div>
                     </article>
                     <!--  -->
                     
+                        <div class="next-post">
+                            <div class="next">下一篇</div>
+                            <a href="https://orange-sketch.top/dhzYV_Kgc/">
+                                <h3 class="post-title">
+                                    Github加速
+                                </h3>
+                            </a>
+                        </div>
+                        
                             <div id="disqus_thread"></div>
                             <div id="gitalk-container"></div>
                 </div>
