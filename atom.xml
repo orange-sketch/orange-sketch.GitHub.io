@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://orange-sketch.top</id>
     <title>枼の華</title>
-    <updated>2021-06-29T12:23:47.941Z</updated>
+    <updated>2021-06-30T08:33:14.105Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://orange-sketch.top"/>
     <link rel="self" href="https://orange-sketch.top/atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>https://orange-sketch.top/images/avatar.png</logo>
     <icon>https://orange-sketch.top/favicon.ico</icon>
     <rights>All rights reserved 2021, 枼の華</rights>
+    <entry>
+        <title type="html"><![CDATA[自定义右键新建菜单]]></title>
+        <id>https://orange-sketch.top/jebQqZOsh/</id>
+        <link href="https://orange-sketch.top/jebQqZOsh/">
+        </link>
+        <updated>2021-06-30T07:03:40.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>新的开始</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>新的开始</p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[魔法指令]]></title>
         <id>https://orange-sketch.top/j9xScNnrd/</id>
@@ -142,21 +157,6 @@
 ]]></summary>
         <content type="html"><![CDATA[<blockquote>
 <p>一起来躁动~</p>
-</blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[X5内核部署]]></title>
-        <id>https://orange-sketch.top/ZMFZxCARw/</id>
-        <link href="https://orange-sketch.top/ZMFZxCARw/">
-        </link>
-        <updated>2021-04-11T03:16:55.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote>
-<p>支持应用内播放</p>
-</blockquote>
-]]></summary>
-        <content type="html"><![CDATA[<blockquote>
-<p>支持应用内播放</p>
 </blockquote>
 ]]></content>
     </entry>
