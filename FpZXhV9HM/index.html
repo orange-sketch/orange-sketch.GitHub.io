@@ -1,0 +1,320 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    cmd | 枼の華
+</title>
+<link rel="shortcut icon" href="https://orange-sketch.top/favicon.ico?v=1680667881577">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://orange-sketch.top/styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://orange-sketch.top/media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175444143-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-175444143-1');
+    </script>
+    
+        
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://orange-sketch.top">
+                <img class="avatar" src="https://orange-sketch.top/images/avatar.png?v=1680667881577" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    枼の華
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    归档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="https://orange-sketch.top/about" class="menu">
+                                    关于
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="http://www.biaobaishike.com/web.php?id=a4DyKIi" class="menu">
+                                    纪念日
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
+
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            cmd
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2020-12-14</time>
+                            
+                                <a href="https://orange-sketch.top/LX6bLZKRdM/" class="post-tag i-tag
+                            i-tag-info">
+                            #技术
+                        </a>
+                                
+                                <a href="https://orange-sketch.top/38xKl0Sipv/" class="post-tag i-tag
+                            i-tag-other_1">
+                            #应用
+                        </a>
+                                
+                        </div>
+                        
+                            <div class="post-feature-image" style="background-image: url('https://gitee.com/lichangle/pic/raw/master/cmd~1.jpg')"></div>
+                            
+                                <div class="post-content">
+                                    <blockquote>
+<p>cmd命令</p>
+</blockquote>
+<!-- more -->
+<p>注意：这些字符只能是英文的</p>
+<p>命令 -help    //第1种形式的使用帮助</p>
+<p>命令  /?       //第2种形式的使用帮助</p>
+<h3 id="常用基本命令">常用基本命令</h3>
+<p>1，列出所有任务及进程号，杀进程</p>
+<p>tasklist</p>
+<p>tasklist /?  获取使用帮助</p>
+<p>taskkill</p>
+<p>taskkill /?  获取使用帮助</p>
+<p>2，cd 切换目录</p>
+<p>cd /?     //获取使用帮助</p>
+<p>cd \       //跳转到硬盘的根目录</p>
+<p>cd C:\WINDOWS  //跳转到当前硬盘的其他文件</p>
+<p>d:        //跳转到其他硬盘</p>
+<p>cd /d e:\software    //跳转到其他硬盘的其他文件夹</p>
+<p>注意此处必须加/d参数。否则无法跳转。</p>
+<p>cd..      //跳转到上一层目录</p>
+<p>例：<br>
+输入cd..，回车<br>
+输入cd..，再回车<br>
+输入powercfg -h off，并回车   #删除休眠文件</p>
+<p>3，netstat 查看网络连接状态</p>
+<p>显示协议统计信息和当前 TCP/IP 网络连接。该命令可以查看当前机器建立的所有网络链接状态，以及对应哪个进程。</p>
+<p>netstat -help 获取命令行使用帮助信息</p>
+<p>netstat -ano  //查看网络连接、状态以及对应的进程id</p>
+<p>4，find</p>
+<p>find /？获取使用帮助</p>
+<p>netstat -ano|find &quot;.8&quot;   //使用管道符，进行模糊查询</p>
+<p>5，ping</p>
+<p>ping -help <br>
+ping+网址或ip  #测试dns网速</p>
+<p>6，tracert</p>
+<p>tracert也被称为Windows路由跟踪实用程序，在命令提示符（cmd）中使用tracert命令可以用于确定IP数据包访问目标时所选择的路径。</p>
+<p>tracert /? 获取使用帮助</p>
+<p>例子：tracert www.baidu.com</p>
+<p>7、ipconfig <br>
+  ipconfig  #查看自己的ip<br>
+  ipconfig/flushdns  #刷新dns缓存</p>
+<p></p>
+<h3 id="辅助符号或命令">辅助符号或命令</h3>
+<p>7，“|”cmd命令中|代表前一个的输出代表后一个的输入</p>
+<p>查找特定ip的网络连接及进程号：netstat -ano|find &quot;192.168.1.10&quot;</p>
+<p>8，重定向输出符号&gt; &gt;&gt;</p>
+<p>将原本输出到命令窗口的内容，转存到文件中，如jstack 12912 &gt;d:/s.txt  打印线程到指定文件</p>
+<p>cmd &gt;重定向输出并覆盖源文件。</p>
+<p>例如</p>
+<p>echo hello &gt;c:\1.txt</p>
+<p>1.txt的文件内容先被清空，然后写入hello。</p>
+<p>cmd &gt;&gt;重定向输出追加到文件末尾</p>
+<p>例如：</p>
+<p>echo hello &gt;c:\1.txt</p>
+<p>在1.txt文件末尾加上hello</p>
+<p>9，重定向输入符号&lt; &lt;&lt;</p>
+<p>cmd &lt; file</p>
+<p>使cmd命令从file读入</p>
+<p>cmd &lt;&lt; text</p>
+<p>从命令行读取输入，直到一个与text相同的行结束。除非使用引号把输入括起来，此模式将对输入内容进行shell变量替换。如果使用 &lt;&lt;- ，则会忽略接下来输入行首的tab，结束行也可以是一堆tab再加上一个与text相同的内容，可以参考后面的例子。</p>
+<p>cmd &lt;&lt;&lt; word</p>
+<p>把word（而不是文件word）和后面的换行作为输入提供给cmd。</p>
+<p>cmd &lt;&gt; file</p>
+<p>以读写模式把文件file重定向到输入，文件file不会被破坏。仅当应用程序利用了这一特性时，它才是有意义的。</p>
+<p>cmd &gt;| file</p>
+<p>功能同&gt;，但即便在设置了noclobber时也会覆盖file文件，注意用的是|而非一些书中说的!，目前仅在csh中仍沿用&gt;!实现这一功能。</p>
+<p>10，终止一直在运行的命令ctrl+c</p>
+<p>有时某个命令一直打印输出结果(如ping 192.168.1.10 -t)，我们想终止这个命令的执行，直接按ctrl+c即可。</p>
+<p>11，清空cmd窗口内容命令cls</p>
+<p>有时cmd内容太多，滚动费尽，需要清空屏幕内容，直接输入cls即可</p>
+<p>12，cmd命令中，按键盘的向上箭头可以直接复制前一个命令</p>
+<p>转载自:<a href="https://blog.csdn.net/qq_33862644/article/details/81171521?utm_source=app">csdn</a></p>
+<hr>
+<figure data-type="image" tabindex="1"><img src="https://gitee.com/lichangle/pic/raw/master/cmd.jpg" alt="end" loading="lazy"></figure>
+
+                                </div>
+                    </article>
+                    <!--  -->
+                    
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
+                </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                        <!-- toc -->
+                        
+    <div class="toc-card i-card ">
+        <div class="toc-title i-card-title">目录</div>
+        <div class="toc-content">
+            <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#%E5%B8%B8%E7%94%A8%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4">常用基本命令</a></li>
+<li><a href="#%E8%BE%85%E5%8A%A9%E7%AC%A6%E5%8F%B7%E6%88%96%E5%91%BD%E4%BB%A4">辅助符号或命令</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        <script>
+            function locateCatelogList() {
+                /*获取文章目录集合,可通过:header过滤器*/
+                var alis = $('.post-content :header');
+                /*获取侧边栏目录列表集合**/
+                var sidebar_alis = $('.markdownIt-TOC a');
+                /*获取滚动条到顶部的距离*/
+                var scroll_height = $(window).scrollTop();
+                for (var i = 0; i < alis.length; i++) {
+                    /*获取锚点集合中的元素分别到顶点的距离*/
+                    var a_height = $(alis[i]).offset().top;
+                    if (a_height < scroll_height) {
+                        /*高亮显示*/
+                        sidebar_alis.removeClass('on');
+                        $(sidebar_alis[i]).addClass('on');
+                    }
+                }
+            }
+            $(function() {
+                /*绑定滚动事件 */
+                $(window).bind('scroll', locateCatelogList);
+            });
+        </script>
+    </div>
+    
+                            
+
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="site-footer">
+  <div id="hans-bolang"></div><script src="https://api.vvhan.com/api/bolang"></script>
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			div{
+				cursor: url(https://pic1.imgdb.cn/item/63705d6416f2c2beb148ac46.png), pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<div></div>
+	</body>
+</html> | 
+  <a class="rss" href="https://orange-sketch.top/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+
+    </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+    
+</body>
+
+</html>

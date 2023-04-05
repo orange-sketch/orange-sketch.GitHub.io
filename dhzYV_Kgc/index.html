@@ -1,0 +1,303 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    Github加速 | 枼の華
+</title>
+<link rel="shortcut icon" href="https://orange-sketch.top/favicon.ico?v=1680667881577">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://orange-sketch.top/styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://orange-sketch.top/media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175444143-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-175444143-1');
+    </script>
+    
+        
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://orange-sketch.top">
+                <img class="avatar" src="https://orange-sketch.top/images/avatar.png?v=1680667881577" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    枼の華
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    归档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="https://orange-sketch.top/about" class="menu">
+                                    关于
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="http://www.biaobaishike.com/web.php?id=a4DyKIi" class="menu">
+                                    纪念日
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
+
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            Github加速
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2021-06-08</time>
+                            
+                                <a href="https://orange-sketch.top/LX6bLZKRdM/" class="post-tag i-tag
+                            i-tag-success">
+                            #技术
+                        </a>
+                                
+                                <a href="https://orange-sketch.top/83NhOTZo9f/" class="post-tag i-tag
+                            i-tag-info">
+                            #转载
+                        </a>
+                                
+                        </div>
+                        
+                            <div class="post-feature-image" style="background-image: url('https://gitee.com/lichangle/pic/raw/master/githubb.jpg')"></div>
+                            
+                                <div class="post-content">
+                                    <blockquote>
+<p>交流无国界</p>
+</blockquote>
+<!-- more -->
+<p>  大家知道GitHub这个网站，但是由于GitHub是国外的网站，国外服务器等诸多原因导致国内访问GitHub非常慢（其实最主要的原因是GitHub的分发加速网络的域名遭到dns污染），clone、push、pull仓库有时只有几KB的速度，而且动不动还断，用起来很麻烦。</p>
+<p>  所以这里给大家分享一个加速GitHub访问的方法，通过修改系统的hosts文件，绕过国内的dns解析，直接访问GitHub的<a href="https://ghproxy.com/" target="_blank">CDN节点</a> ，解决DNS污染的问题</p>
+<figure data-type="image" tabindex="1"><img src="https://gitee.com/lichangle/pic/raw/master/github02.jpg" alt="star" loading="lazy"></figure>
+<p>  <strong>无需使用代理加速器，无需FQ，无需科学（KX）上网</strong></p>
+<p><strong>1.获取GitHub官方CDN地址：https://www.ipaddress.com/</strong></p>
+<figure data-type="image" tabindex="2"><img src="https://gitee.com/lichangle/pic/raw/master/github1.jpg" alt="1" loading="lazy"></figure>
+<p><strong>2.查询（这里可直接点击连接跳转）</strong></p>
+<p>  2.1 <a href="https://github.com.ipaddress.com/" target="_blank">github.com</a></p>
+<figure data-type="image" tabindex="3"><img src="https://gitee.com/lichangle/pic/raw/master/github2.jpg" alt="2" loading="lazy"></figure>
+<p>  2.2 <a href="https://github.com.ipaddress.com/assets-cdn.github.com" target="_blank">assets-cdn.github.com</a></p>
+<figure data-type="image" tabindex="4"><img src="https://gitee.com/lichangle/pic/raw/master/github3.jpg" alt="3" loading="lazy"></figure>
+<p>  2.3 <a href="https://fastly.net.ipaddress.com/github.global.ssl.fastly.net" target="_blank">github.global.ssl.fastly.net</a></p>
+<figure data-type="image" tabindex="5"><img src="https://gitee.com/lichangle/pic/raw/master/github4.jpg" alt="4" loading="lazy"></figure>
+<p><strong>3.复制这些地址</strong><br>
+  这个地址要根据你本人查到的使用<br>
+  我的是：</p>
+<pre><code>
+140.82.114.4    github.com
+
+185.199.108.153    assets-cdn.github.com
+185.199.109.153    assets-cdn.github.com
+185.199.110.153    assets-cdn.github.com
+185.199.111.153    assets-cdn.github.com
+
+199.232.69.194    github.global.ssl.fastly.net
+</code></pre>
+<p><strong>4.找到本地系统 hosts 文件</strong></p>
+<pre><code>
+直接查询路径：C:\Windows\System32\drivers\etc
+找到hosts文件，以管理员用户打开，把查询到的内容粘贴到文件内容的下面，ip和域名要用空格隔开
+</code></pre>
+<figure data-type="image" tabindex="6"><img src="https://gitee.com/lichangle/pic/raw/master/github5.jpg" alt="5" loading="lazy"></figure>
+<hr>
+<p>*<strong>注：win10以管理员身份打开host文件方法：</strong><br>
+  第一步：</p>
+<figure data-type="image" tabindex="7"><img src="https://gitee.com/lichangle/pic/raw/master/host1.jpg" alt="01" loading="lazy"></figure>
+<p>  第二步：</p>
+<figure data-type="image" tabindex="8"><img src="https://gitee.com/lichangle/pic/raw/master/host2.jpg" alt="02" loading="lazy"></figure>
+<p>  第三步：先后执行两个命令cmd        notepad hosts</p>
+<figure data-type="image" tabindex="9"><img src="https://gitee.com/lichangle/pic/raw/master/host3.png" alt="03" loading="lazy"></figure>
+<p>  第四步：在记事本中修改host文件，修改完成后保存，然后删除txt文件后缀即可</p>
+<figure data-type="image" tabindex="10"><img src="https://gitee.com/lichangle/pic/raw/master/dsk.jpg" alt="04" loading="lazy"></figure>
+<hr>
+<p><strong>5.以管理员方式打开cmd执行 ipconfig /flushdns 手动刷新系统DNS缓存</strong></p>
+<figure data-type="image" tabindex="11"><img src="https://gitee.com/lichangle/pic/raw/master/github6.jpg" alt="6" loading="lazy"></figure>
+<p><strong>6.clone测试下载，克隆速度会明显变得很快，很快</strong></p>
+<p>*转载：博客园|伴身笔记https://www.cnblogs.com/faqbug/p/13387493.html</p>
+<figure data-type="image" tabindex="12"><img src="https://gitee.com/lichangle/pic/raw/master/github11.jpg" alt="end" loading="lazy"></figure>
+<!-- 代码1：放在页面需要展示的位置  -->
+<!-- 如果您配置过sourceid，建议在div标签中配置sourceid、cid(分类id)，没有请忽略  -->
+<div id="cyEmoji" role="cylabs" data-use="emoji"></div>
+<!-- 代码2：用来读取评论框配置，此代码需放置在代码1之后。 -->
+<!-- 如果当前页面有评论框，代码2请勿放置在评论框代码之前。 -->
+<!-- 如果页面同时使用多个实验室项目，以下代码只需要引入一次，只配置上面的div标签即可 -->
+<script type="text/javascript" charset="utf-8" src="https://cy-cdn.kuaizhan.com/js/??lib/jquery.js,changyan.labs.https.js?appid=cyvj6OQGs"></script>
+ <body>
+ <!--PC和WAP自适应版评论系统-->
+<div id="SOHUCS" ></div> 
+<script type="text/javascript"> 
+(function(){ 
+var appid = 'cyvj6OQGs'; 
+var conf = 'prod_43bc8c51af1b097bfe256733dce5de77'; 
+var width = window.innerWidth || document.documentElement.clientWidth; 
+if (width < 960) {
+var head = document.getElementsByTagName('head')[0]||document.head||document.documentElement;
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.charset = 'utf-8';
+script.id = 'changyan_mobile_js';
+script.src = 'https://cy-cdn.kuaizhan.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf;
+head.appendChild(script);
+} else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://cy-cdn.kuaizhan.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
+ </body>
+
+                                </div>
+                    </article>
+                    <!--  -->
+                    
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
+                </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                                <!-- id-card -->
+                                
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://orange-sketch.top/images/avatar.png?v=1680667881577)">
+        </div>
+        <h1 class="id_card-title">
+            枼の華
+        </h1>
+        <h2 class="id_card-description">
+            一直走，莫回頭。
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
+
+        </div>
+    </div>
+    
+                                    
+
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="site-footer">
+  <div id="hans-bolang"></div><script src="https://api.vvhan.com/api/bolang"></script>
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			div{
+				cursor: url(https://pic1.imgdb.cn/item/63705d6416f2c2beb148ac46.png), pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<div></div>
+	</body>
+</html> | 
+  <a class="rss" href="https://orange-sketch.top/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+
+    </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+    
+</body>
+
+</html>

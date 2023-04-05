@@ -1,0 +1,333 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    X5内核部署 | 枼の華
+</title>
+<link rel="shortcut icon" href="https://orange-sketch.top/favicon.ico?v=1680667881577">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://orange-sketch.top/styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://orange-sketch.top/media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175444143-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-175444143-1');
+    </script>
+    
+        
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://orange-sketch.top">
+                <img class="avatar" src="https://orange-sketch.top/images/avatar.png?v=1680667881577" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    枼の華
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    归档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="https://orange-sketch.top/about" class="menu">
+                                    关于
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="http://www.biaobaishike.com/web.php?id=a4DyKIi" class="menu">
+                                    纪念日
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
+
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            X5内核部署
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2021-04-11</time>
+                            
+                                <a href="https://orange-sketch.top/LX6bLZKRdM/" class="post-tag i-tag
+                            i-tag-warning">
+                            #技术
+                        </a>
+                                
+                                <a href="https://orange-sketch.top/38xKl0Sipv/" class="post-tag i-tag
+                            i-tag-other_2">
+                            #应用
+                        </a>
+                                
+                        </div>
+                        
+                            <div class="post-feature-image" style="background-image: url('https://gitee.com/lichangle/pic/raw/master/x5neihe.gif')"></div>
+                            
+                                <div class="post-content">
+                                    <blockquote>
+<p>支持应用内播放</p>
+</blockquote>
+<!-- more -->
+<p>  将x5播放器内核部署到由fusion app制作的应用内，可以使应用具有视频播放功能。</p>
+<p><strong>操作步骤：</strong></p>
+<p>1.打开MT管理器，左侧找到需要添加内核的应用，右侧打开x5内核文件夹</p>
+<figure data-type="image" tabindex="1"><img src="https://sc01.alicdn.com/kf/HTB122OobjzuK1Rjy0Fpq6yEpFXav.jpg" alt="1" loading="lazy"></figure>
+<p>2.点击左侧应用，查看，删除以classes开头的所有文件</p>
+<figure data-type="image" tabindex="2"><img src="https://sc01.alicdn.com/kf/HTB1oWGtbh_rK1RkHFqDq6yJAFXad.jpg" alt="2" loading="lazy"></figure>
+<p>3.选择右侧文件：lib、classes.dex添加到左侧</p>
+<figure data-type="image" tabindex="3"><img src="https://sc01.alicdn.com/kf/HTB1hoOvbdzvK1RkSnfoq6zMwVXaK.jpg" alt="3" loading="lazy"></figure>
+<p>4.点击左侧AndroidMainfest.xml文件--反编译</p>
+<p>5.复制以下代码到图片红框上方</p>
+<p>代码：</p>
+<pre><code>&lt;meta-data android:name=&quot;android.support.VERSION&quot; android:value=&quot;25.3.1&quot; /&gt;
+&lt;meta-data android:name=&quot;android.support.VERSION&quot; android:value=&quot;25.3.1&quot; /&gt;	
+&lt;meta-data android:name=&quot;QBSDKAppKey&quot; android:value=&quot;vmV2y4T7vvkwtQBS1nKXWMPj&quot; /&gt;
+&lt;activity android:label=&quot;浏览器&quot; android:name=&quot;com.androlua.LuaWebView&quot; android:process=&quot;:h5&quot; android:screenOrientation=&quot;portrait&quot; android:configChanges=&quot;0x4a0&quot; /&gt;
+&lt;activity android:label=&quot;浏览器&quot; android:name=&quot;com.androlua.MyWebView&quot; android:process=&quot;:h5&quot; android:screenOrientation=&quot;portrait&quot; android:configChanges=&quot;0x4a0&quot; /&gt;
+&lt;activity android:name=&quot;com.tencent.smtt.sdk.VideoActivity&quot; android:exported=&quot;false&quot; android:launchMode=&quot;singleTask&quot; android:configChanges=&quot;0x4a0&quot; android:alwaysRetainTaskState=&quot;true&quot;&gt;			
+ &lt;intent-filter&gt;		
+ &lt;action android:name=&quot;com.tencent.smtt.tbs.video.PLAY&quot; /&gt;													&lt;category android:name=&quot;android.intent.category.DEFAULT&quot; /&gt;															&lt;/intent-filter&gt;																&lt;/activity&gt;
+</code></pre>
+<p>红框上方添加代码：</p>
+<figure data-type="image" tabindex="4"><img src="https://sc01.alicdn.com/kf/HTB1G11ubcfrK1RkSnb4q6xHRFXac.jpg" alt="5" loading="lazy"></figure>
+<p>6.复制以下代码到图片红框处</p>
+<pre><code>&lt;!-- 防止手机休眠 --&gt;    &lt;uses-permission android:name=&quot;android.permission.WAKE_LOCK&quot; /&gt;    
+&lt;!-- 展开/收拢状态栏 --&gt;    &lt;uses-permission android:name=&quot;android.permission.EXPAND_STATUS_BAR&quot; /&gt;    
+&lt;!-- 拍摄照片和视频 --&gt;    &lt;uses-permission android:name=&quot;android.permission.CAMERA&quot; /&gt;    
+&lt;!-- 录音 --&gt;    &lt;uses-permission android:name=&quot;android.permission.RECORD_AUDIO&quot; /&gt;    
+&lt;!-- 访问大致位置信息（以网络为依据） --&gt;    
+&lt;uses-permission android:name=&quot;android.permission.ACCESS_COARSE_LOCATION&quot; /&gt;    
+&lt;!-- 访问确切位置信息（以 GPS 和网络为依据） --&gt;    &lt;uses-permission android:name=&quot;android.permission.ACCESS_FINE_LOCATION&quot; /&gt;    
+&lt;!-- 设置闹钟 --&gt;    &lt;uses-permission android:name=&quot;com.android.alarm.permission.SET_ALARM&quot; /&gt;   
+ &lt;!-- 连接WLAN网络和断开连接 --&gt;    &lt;uses-permission android:name=&quot;android.permission.CHANGE_WIFI_STATE&quot; /&gt;   
+ &lt;!-- 更改网络连接性 --&gt;    &lt;uses-permission android:name=&quot;android.permission.CHANGE_NETWORK_STATE&quot; /&gt;   
+ &lt;!-- 检索正在运行的应用 --&gt;    &lt;uses-permission android:name=&quot;android.permission.GET_TASKS&quot; /&gt;    
+&lt;!-- 开机启动 --&gt;    &lt;uses-permission android:name=&quot;android.permission.RECEIVE_BOOT_COMPLETED&quot; /&gt;   
+ &lt;!-- 控制振动 --&gt;    &lt;uses-permission android:name=&quot;android.permission.VIBRATE&quot; /&gt;    &lt;uses-permission android:name=&quot;android.permission.FLASHLIGHT&quot; /&gt;    
+&lt;!-- 此应用可显示在其他应用上方 --&gt;    &lt;uses-permission android:name=&quot;android.permission.SYSTEM_ALERT_WINDOW&quot; /&gt;   
+ &lt;!-- 设置壁纸 --&gt;    &lt;uses-permission android:name=&quot;android.permission.SET_WALLPAPER&quot; /&gt;   
+ &lt;!-- 更改您的音频设置 --&gt;    &lt;uses-permission android:name=&quot;android.permission.MODIFY_AUDIO_SETTINGS&quot; /&gt;    
+&lt;!-- 卸载快捷方式 --&gt;    &lt;uses-permission android:name=&quot;com.android.launcher.permission.UNINSTALL_SHORTCUT&quot; /&gt;    &lt;!-- 安装快捷方式 --&gt;    
+&lt;uses-permission android:name=&quot;com.android.launcher.permission.INSTALL_SHORTCUT&quot; /&gt;    &lt;!-- 修改系统设置 --&gt;    
+&lt;uses-permission android:name=&quot;android.permission.WRITE_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.android.launcher.permission.READ_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.android.launcher.permission.WRITE_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.google.android.launcher.permission.READ_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.google.android.launcher.permission.WRITE_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.htc.launcher.permission.READ_SETTINGS&quot; /&gt;    
+&lt;uses-permission android:name=&quot;com.htc.launcher.permission.WRITE_SETTINGS&quot; /&gt;   
+ &lt;uses-permission android:name=&quot;com.nd.android.launcher.permission.READ_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.nd.android.launcher.permission.WRITE_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.lge.launcher.permission.READ_SETTINGS&quot; /&gt;    
+&lt;uses-permission android:name=&quot;com.lge.launcher.permission.WRITE_SETTINGS&quot; /&gt;    
+&lt;uses-permission android:name=&quot;com.fede.launcher.permission.READ_SETTINGS&quot; /&gt;    
+&lt;uses-permission android:name=&quot;com.fede.launcher.permission.WRITE_SETTINGS&quot; /&gt;    
+&lt;uses-permission android:name=&quot;org.adw.launcher.permission.READ_SETTINGS&quot; /&gt;    
+&lt;uses-permission android:name=&quot;org.adw.launcher.permission.WRITE_SETTINGS&quot; /&gt;    
+&lt;uses-permission android:name=&quot;org.adwfreak.launcher.permission.READ_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;org.adwfreak.launcher.permission.WRITE_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;org.adw.launcher_donut.permission.READ_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;org.adw.launcher_donut.permission.WRITE_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.tencent.qqlauncher.permission.READ_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.tencent.qqlauncher.permission.WRITE_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.android.mylauncher.permission.READ_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.android.mylauncher.permission.WRITE_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.huawei.launcher2.permission.READ_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.huawei.launcher2.permission.WRITE_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.huawei.launcher3.permission.READ_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.huawei.launcher3.permission.WRITE_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;net.qihoo.launcher.permission.READ_SETTINGS&quot; /&gt;   
+ &lt;uses-permission android:name=&quot;net.qihoo.launcher.permission.WRITE_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.dianxinos.dxhome.permission.READ_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.dianxinos.dxhome.permission.WRITE_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.huawei.android.launcher.permission.READ_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.huawei.android.launcher.permission.WRITE_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.qihoo360.launcher.permission.READ_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.qihoo360.launcher.permission.WRITE_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.oppo.launcher.permission.READ_SETTINGS&quot; /&gt;    
+&lt;uses-permission android:name=&quot;com.oppo.launcher.permission.WRITE_SETTINGS&quot; /&gt;   
+ &lt;uses-permission android:name=&quot;com.bbk.launcher2.permission.READ_SETTINGS&quot; /&gt;   
+ &lt;uses-permission android:name=&quot;com.bbk.launcher2.permission.WRITE_SETTINGS&quot; /&gt;   
+ &lt;uses-permission android:name=&quot;com.ztemt.launcher.permission.READ_SETTINGS&quot; /&gt;   
+ &lt;uses-permission android:name=&quot;com.ztemt.launcher.permission.WRITE_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.android.launcher3.permission.READ_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.android.launcher3.permission.WRITE_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.moxiu.launcher.permission.READ_SETTINGS&quot; /&gt;   
+ &lt;uses-permission android:name=&quot;com.moxiu.launcher.permission.WRITE_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.iLoong.permission.READ_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.iLoong.permission.WRITE_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;telecom.mdesk.permission.READ_SETTINGS&quot; /&gt;   
+ &lt;uses-permission android:name=&quot;telecom.mdesk.permission.WRITE_SETTINGS&quot; /&gt;   
+ &lt;uses-permission android:name=&quot;com.lenovo.launcher.permission.READ_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.lenovo.launcher.permission.WRITE_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.meizu.flyme.launcher.permission.READ_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.meizu.flyme.launcher.permission.WRITE_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.google.android.apps.nexuslauncher.permission.READ_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.google.android.apps.nexuslauncher.permission.WRITE_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.teslacoilsw.launcher.permission.READ_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.teslacoilsw.launcher.permission.WRITE_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;android.permission.READ_LOGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.tencent.tmsecurelite.permission.ACCESS_SERVICE&quot; /&gt;    &lt;uses-permission android:name=&quot;android.permission.BIND_ACCESSIBILITY_SERVICE&quot; /&gt;    &lt;uses-permission android:name=&quot;com.sec.android.provider.badge.permission.READ&quot; /&gt;    &lt;uses-permission android:name=&quot;com.sec.android.provider.badge.permission.WRITE&quot; /&gt;    &lt;uses-permission android:name=&quot;com.android.ContactWidget.permission.READ_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.android.ContactWidget.permission.WRITE_SETTINGS&quot; /&gt;    &lt;uses-permission android:name=&quot;android.permission.INTERACT_ACROSS_USERS&quot; /&gt;    &lt;uses-permission android:name=&quot;android.permission.INTERACT_ACROSS_USERS_FULL&quot; /&gt;    &lt;uses-permission android:name=&quot;android.permission.MOUNT_UNMOUNT_FILESYSTEMS&quot; /&gt;    &lt;uses-permission android:name=&quot;com.lenovo.launcher.permission.BADGE_READ&quot; /&gt;    &lt;uses-permission android:name=&quot;com.lenovo.launcher.permission.BADGE_WRITE&quot; /&gt;    &lt;uses-permission android:name=&quot;com.huawei.android.launcher.permission.CHANGE_BADGE&quot; /&gt;    &lt;!-- 读取同步统计信息 --&gt;   
+ &lt;uses-permission android:name=&quot;android.permission.READ_SYNC_STATS&quot; /&gt;    &lt;!-- 启用和停用同步 --&gt;  
+ &lt;uses-permission android:name=&quot;android.permission.WRITE_SYNC_SETTINGS&quot; /&gt;  
+  &lt;!-- 读取同步设置 --&gt;    
+&lt;uses-permission android:name=&quot;android.permission.READ_SYNC_SETTINGS&quot; /&gt;    
+&lt;uses-permission android:name=&quot;android.permission.AUTHENTICATE_ACCOUNTS&quot; /&gt;  
+  &lt;uses-permission android:name=&quot;com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE&quot; /&gt;    &lt;uses-feature android:name=&quot;android.hardware.camera&quot; /&gt;    
+&lt;uses-feature android:glEsVersion=&quot;0x00020000&quot; /&gt;
+
+</code></pre>
+<p>红框处添加代码：</p>
+<figure data-type="image" tabindex="5"><img src="https://sc01.alicdn.com/kf/HTB1rDCrbjDuK1RjSszdq6xGLpXaR.jpg" alt="6" loading="lazy"></figure>
+<p>7.完成后，保存并退出</p>
+<p>8.签名，打包安装</p>
+<figure data-type="image" tabindex="6"><img src="https://sc01.alicdn.com/kf/HTB1EJCxborrK1RkSne1q6ArVVXaX.jpg" alt="8" loading="lazy"></figure>
+<hr>
+<p>下载地址：</p>
+<p>  <a href="https://sketch.lanzous.com/iQDZknx43ra" target="_blank">x5内核</a></p>
+<hr>
+<figure data-type="image" tabindex="7"><img src="https://gitee.com/lichangle/pic/raw/master/obsend.jpg" alt="end" loading="lazy"></figure>
+<!-- 代码1：放在页面需要展示的位置  -->
+<!-- 如果您配置过sourceid，建议在div标签中配置sourceid、cid(分类id)，没有请忽略  -->
+<div id="cyEmoji" role="cylabs" data-use="emoji"></div>
+<!-- 代码2：用来读取评论框配置，此代码需放置在代码1之后。 -->
+<!-- 如果当前页面有评论框，代码2请勿放置在评论框代码之前。 -->
+<!-- 如果页面同时使用多个实验室项目，以下代码只需要引入一次，只配置上面的div标签即可 -->
+<script type="text/javascript" charset="utf-8" src="https://cy-cdn.kuaizhan.com/js/??lib/jquery.js,changyan.labs.https.js?appid=cyvj6OQGs"></script>
+ <body>
+ <!--PC和WAP自适应版评论系统-->
+<div id="SOHUCS" ></div> 
+<script type="text/javascript"> 
+(function(){ 
+var appid = 'cyvj6OQGs'; 
+var conf = 'prod_43bc8c51af1b097bfe256733dce5de77'; 
+var width = window.innerWidth || document.documentElement.clientWidth; 
+if (width < 960) {
+var head = document.getElementsByTagName('head')[0]||document.head||document.documentElement;
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.charset = 'utf-8';
+script.id = 'changyan_mobile_js';
+script.src = 'https://cy-cdn.kuaizhan.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf;
+head.appendChild(script);
+} else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://cy-cdn.kuaizhan.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
+ </body>
+
+                                </div>
+                    </article>
+                    <!--  -->
+                    
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
+                </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                                <!-- id-card -->
+                                
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://orange-sketch.top/images/avatar.png?v=1680667881577)">
+        </div>
+        <h1 class="id_card-title">
+            枼の華
+        </h1>
+        <h2 class="id_card-description">
+            一直走，莫回頭。
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
+
+        </div>
+    </div>
+    
+                                    
+
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="site-footer">
+  <div id="hans-bolang"></div><script src="https://api.vvhan.com/api/bolang"></script>
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			div{
+				cursor: url(https://pic1.imgdb.cn/item/63705d6416f2c2beb148ac46.png), pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<div></div>
+	</body>
+</html> | 
+  <a class="rss" href="https://orange-sketch.top/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+
+    </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+    
+</body>
+
+</html>

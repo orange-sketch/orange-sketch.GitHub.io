@@ -1,0 +1,373 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    自定义右键新建菜单 | 枼の華
+</title>
+<link rel="shortcut icon" href="https://orange-sketch.top/favicon.ico?v=1680667881577">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://orange-sketch.top/styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://orange-sketch.top/media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175444143-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-175444143-1');
+    </script>
+    
+        
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://orange-sketch.top">
+                <img class="avatar" src="https://orange-sketch.top/images/avatar.png?v=1680667881577" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    枼の華
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    归档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="https://orange-sketch.top/about" class="menu">
+                                    关于
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="http://www.biaobaishike.com/web.php?id=a4DyKIi" class="menu">
+                                    纪念日
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
+
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            自定义右键新建菜单
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2021-06-30</time>
+                            
+                                <a href="https://orange-sketch.top/83NhOTZo9f/" class="post-tag i-tag
+                            i-tag-success">
+                            #转载
+                        </a>
+                                
+                                <a href="https://orange-sketch.top/38xKl0Sipv/" class="post-tag i-tag
+                            i-tag-other_1">
+                            #应用
+                        </a>
+                                
+                        </div>
+                        
+                            <div class="post-feature-image" style="background-image: url('https://gitee.com/lichangle/pic/raw/master/zdy.jpg')"></div>
+                            
+                                <div class="post-content">
+                                    <blockquote>
+<p>新的开始</p>
+</blockquote>
+<!-- more -->
+<h1 id="一-引言">一、引言</h1>
+<p>   有的时候，我们在Windows系统中新建文件，装的软件过多，会导致无法快速创建自己想创建的新文件，就像下面这种情况：</p>
+<figure data-type="image" tabindex="1"><img src="https://gitee.com/xuexianqi/img/raw/master/img/20200709143423.png" alt="" loading="lazy"></figure>
+<p>   原本右键新建的选项有这些，但是我想去掉其中几个</p>
+<figure data-type="image" tabindex="2"><img src="https://gitee.com/xuexianqi/img/raw/master/img/20200709144753.png" alt="n1" loading="lazy"></figure>
+<p>   其实遇到这种问题并不是没办法，我们可以自己自定义要用的新建菜单选项</p>
+<h1 id="二方法1推荐">二：方法1（推荐）</h1>
+<p>1.下载右键菜单管理<br>
+ 链接：<a href="https://sketch.lanzoui.com/ii8Acquv21a" target="_blank">线路一</a><br>
+        <a href="http://shandianpan.com/f/6SbJ" target="_blank">线路二</a></p>
+<p>2.解压后，双击打开ShellMenuNew.exe</p>
+<figure data-type="image" tabindex="3"><img src="https://gitee.com/xuexianqi/img/raw/master/img/20200709153014.png" alt="n1" loading="lazy"></figure>
+<p>3.进入界面，选中要删除的项目：右键 - 禁用所选菜单项目（选下面的那个）</p>
+<figure data-type="image" tabindex="4"><img src="https://gitee.com/xuexianqi/img/raw/master/img/20200709153456.png" alt="n1" loading="lazy"></figure>
+<p>4.剩下的就是能看到的</p>
+<figure data-type="image" tabindex="5"><img src="https://gitee.com/xuexianqi/img/raw/master/img/20200709153408.png" alt="n1" loading="lazy"></figure>
+<p><strong>回到桌面：右键 - 新建 -</strong></p>
+<figure data-type="image" tabindex="6"><img src="https://gitee.com/xuexianqi/img/raw/master/img/20200709153450.png" alt="n1" loading="lazy"></figure>
+<p>5.成功！</p>
+<figure data-type="image" tabindex="7"><img src="https://gitee.com/xuexianqi/img/raw/master/img/20200709153531.gif" alt="n1" loading="lazy"></figure>
+<h1 id="三方法2">三：方法2</h1>
+<p>1.按下:<strong>windows+R，输入:regedit，按下回车/点击：确定，进入注册表</strong></p>
+<figure data-type="image" tabindex="8"><img src="https://gitee.com/xuexianqi/img/raw/master/img/20200709153852.png" alt="n1" loading="lazy"></figure>
+<p>2.找到如下路径，<strong>点击ShellNew,找到右边的Classes</strong></p>
+<pre><code>
+# 完整路径
+计算机\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Discardable\PostSetup\ShellNew
+
+# 逐级展开路径
+HKEY_CURRENT_USER
+    - Software
+        - Microsoft
+            - Windows
+                - CurrentVersion
+                    - Explorer
+                        - Discardable
+                            - PostSetup
+                            	- ShellNew
+
+</code></pre>
+<figure data-type="image" tabindex="9"><img src="https://gitee.com/xuexianqi/img/raw/master/img/20200709144055.png" alt="n1" loading="lazy"></figure>
+<p>3.选中Classes，<strong>右键 - 修改</strong></p>
+<figure data-type="image" tabindex="10"><img src="https://gitee.com/xuexianqi/img/raw/master/img/20200709144356.png" alt="n1" loading="lazy"></figure>
+<p>4.添加或者删除要新建的菜单文件后缀</p>
+<figure data-type="image" tabindex="11"><img src="https://gitee.com/xuexianqi/img/raw/master/img/20200709144529.png" alt="n1" loading="lazy"></figure>
+<p>   <strong>不同的后缀对应不同的新建项目，可以按需进行删减，排序</strong></p>
+<p>   比如说：我现在有的数值数据后缀有这些：</p>
+<pre><code>
+.bmp
+.cdr
+.cpt
+.docx
+.library-ms
+.lnk
+.md
+.pptx
+.sdw
+.txt
+.xlsx
+.zip
+Folder
+
+</code></pre>
+<figure data-type="image" tabindex="12"><img src="https://gitee.com/xuexianqi/img/raw/master/img/20200709145134.png" alt="n1" loading="lazy"></figure>
+<p>   删除不要的，留下要用的：点击：确定</p>
+<figure data-type="image" tabindex="13"><img src="https://gitee.com/xuexianqi/img/raw/master/img/20200709145509.png" alt="n1" loading="lazy"></figure>
+<p>   修改后，图片如下：</p>
+<figure data-type="image" tabindex="14"><img src="https://gitee.com/xuexianqi/img/raw/master/img/20200709150927.png" alt="n1" loading="lazy"></figure>
+<p>5.回到桌面：右键 - 新建 -</p>
+<figure data-type="image" tabindex="15"><img src="https://gitee.com/xuexianqi/img/raw/master/img/20200709153450.png" alt="n1" loading="lazy"></figure>
+<p>6.成功！</p>
+<figure data-type="image" tabindex="16"><img src="https://gitee.com/xuexianqi/img/raw/master/img/20200709153531.gif" alt="n1" loading="lazy"></figure>
+<h1 id="end可能会遇到的错误">End：可能会遇到的错误</h1>
+<h2 id="错误一">错误一</h2>
+<p>1.如果遇到如下错误：</p>
+<figure data-type="image" tabindex="17"><img src="https://gitee.com/xuexianqi/img/raw/master/img/20200709150342.png" alt="n1" loading="lazy"></figure>
+<p>2.选中ShellNew，<strong>右键 - 权限</strong></p>
+<figure data-type="image" tabindex="18"><img src="https://gitee.com/xuexianqi/img/raw/master/img/20200709150444.png" alt="n1" loading="lazy"></figure>
+<p>3.按照下列箭头的步骤来操作：<br>
+   <strong>高级 - 选中当前账户 - 使用可从此对象继承的权限替换所有子对象权限 - 确定 - 确定</strong></p>
+<figure data-type="image" tabindex="19"><img src="https://gitee.com/xuexianqi/img/raw/master/img/20200709150641.png" alt="n1" loading="lazy"></figure>
+<p>4.点击：<strong>是</strong></p>
+<figure data-type="image" tabindex="20"><img src="https://gitee.com/xuexianqi/img/raw/master/img/20200709150800.png" alt="n1" loading="lazy"></figure>
+<h2 id="错误二">错误二</h2>
+<p>1.如果开始项目修改后，被系统修改回来</p>
+<p>2.选中ShellNew，<strong>右键 - 权限</strong></p>
+<figure data-type="image" tabindex="21"><img src="https://gitee.com/xuexianqi/img/raw/master/img/20200709150444.png" alt="n1" loading="lazy"></figure>
+<p>3.按照下列箭头的步骤来操作：<br>
+   <strong>高级 - 禁用继承 - 从对象中删除所有已继承权限</strong></p>
+<figure data-type="image" tabindex="22"><img src="https://gitee.com/lichangle/pic/raw/master/z1.jpg" alt="n1" loading="lazy"></figure>
+<p>4.如图添加新的组或用户名</p>
+<figure data-type="image" tabindex="23"><img src="https://gitee.com/lichangle/pic/raw/master/zc2.jpg" alt="n1" loading="lazy"></figure>
+<figure data-type="image" tabindex="24"><img src="https://gitee.com/lichangle/pic/raw/master/z3.jpg" alt="n1" loading="lazy"></figure>
+<figure data-type="image" tabindex="25"><img src="https://gitee.com/lichangle/pic/raw/master/z4.jpg" alt="n1" loading="lazy"></figure>
+<p>   设置新用户权限后保存即可</p>
+<figure data-type="image" tabindex="26"><img src="https://gitee.com/lichangle/pic/raw/master/z5.jpg" alt="n1" loading="lazy"></figure>
+<p>5.完成</p>
+<p>转载自：博客园|轻描淡写  https://www.cnblogs.com/xuexianqi/p/13274025.html</p>
+<hr>
+<figure data-type="image" tabindex="27"><img src="https://gitee.com/lichangle/pic/raw/master/master.gif" alt="zl3" loading="lazy"></figure>
+<!-- 代码1：放在页面需要展示的位置  -->
+<!-- 如果您配置过sourceid，建议在div标签中配置sourceid、cid(分类id)，没有请忽略  -->
+<div id="cyEmoji" role="cylabs" data-use="emoji"></div>
+<!-- 代码2：用来读取评论框配置，此代码需放置在代码1之后。 -->
+<!-- 如果当前页面有评论框，代码2请勿放置在评论框代码之前。 -->
+<!-- 如果页面同时使用多个实验室项目，以下代码只需要引入一次，只配置上面的div标签即可 -->
+<script type="text/javascript" charset="utf-8" src="https://cy-cdn.kuaizhan.com/js/??lib/jquery.js,changyan.labs.https.js?appid=cyvj6OQGs"></script>
+ <body>
+ <!--PC和WAP自适应版评论系统-->
+<div id="SOHUCS" ></div> 
+<script type="text/javascript"> 
+(function(){ 
+var appid = 'cyvj6OQGs'; 
+var conf = 'prod_43bc8c51af1b097bfe256733dce5de77'; 
+var width = window.innerWidth || document.documentElement.clientWidth; 
+if (width < 960) {
+var head = document.getElementsByTagName('head')[0]||document.head||document.documentElement;
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.charset = 'utf-8';
+script.id = 'changyan_mobile_js';
+script.src = 'https://cy-cdn.kuaizhan.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf;
+head.appendChild(script);
+} else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://cy-cdn.kuaizhan.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
+ </body>
+
+                                </div>
+                    </article>
+                    <!--  -->
+                    
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
+                </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                        <!-- toc -->
+                        
+    <div class="toc-card i-card ">
+        <div class="toc-title i-card-title">目录</div>
+        <div class="toc-content">
+            <ul class="markdownIt-TOC">
+<li><a href="#%E4%B8%80-%E5%BC%95%E8%A8%80">一、引言</a></li>
+<li><a href="#%E4%BA%8C%E6%96%B9%E6%B3%951%E6%8E%A8%E8%8D%90">二：方法1（推荐）</a></li>
+<li><a href="#%E4%B8%89%E6%96%B9%E6%B3%952">三：方法2</a></li>
+<li><a href="#end%E5%8F%AF%E8%83%BD%E4%BC%9A%E9%81%87%E5%88%B0%E7%9A%84%E9%94%99%E8%AF%AF">End：可能会遇到的错误</a>
+<ul>
+<li><a href="#%E9%94%99%E8%AF%AF%E4%B8%80">错误一</a></li>
+<li><a href="#%E9%94%99%E8%AF%AF%E4%BA%8C">错误二</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        <script>
+            function locateCatelogList() {
+                /*获取文章目录集合,可通过:header过滤器*/
+                var alis = $('.post-content :header');
+                /*获取侧边栏目录列表集合**/
+                var sidebar_alis = $('.markdownIt-TOC a');
+                /*获取滚动条到顶部的距离*/
+                var scroll_height = $(window).scrollTop();
+                for (var i = 0; i < alis.length; i++) {
+                    /*获取锚点集合中的元素分别到顶点的距离*/
+                    var a_height = $(alis[i]).offset().top;
+                    if (a_height < scroll_height) {
+                        /*高亮显示*/
+                        sidebar_alis.removeClass('on');
+                        $(sidebar_alis[i]).addClass('on');
+                    }
+                }
+            }
+            $(function() {
+                /*绑定滚动事件 */
+                $(window).bind('scroll', locateCatelogList);
+            });
+        </script>
+    </div>
+    
+                            
+
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="site-footer">
+  <div id="hans-bolang"></div><script src="https://api.vvhan.com/api/bolang"></script>
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			div{
+				cursor: url(https://pic1.imgdb.cn/item/63705d6416f2c2beb148ac46.png), pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<div></div>
+	</body>
+</html> | 
+  <a class="rss" href="https://orange-sketch.top/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+
+    </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+    
+</body>
+
+</html>

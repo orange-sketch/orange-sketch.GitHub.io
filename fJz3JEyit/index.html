@@ -1,0 +1,553 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    网页CSS格式 | 枼の華
+</title>
+<link rel="shortcut icon" href="https://orange-sketch.top/favicon.ico?v=1680667881577">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://orange-sketch.top/styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://orange-sketch.top/media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175444143-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-175444143-1');
+    </script>
+    
+        
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://orange-sketch.top">
+                <img class="avatar" src="https://orange-sketch.top/images/avatar.png?v=1680667881577" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    枼の華
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    归档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="https://orange-sketch.top/about" class="menu">
+                                    关于
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="http://www.biaobaishike.com/web.php?id=a4DyKIi" class="menu">
+                                    纪念日
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
+
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            网页CSS格式
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2020-08-13</time>
+                            
+                                <a href="https://orange-sketch.top/LX6bLZKRdM/" class="post-tag i-tag
+                            i-tag-other_1">
+                            #技术
+                        </a>
+                                
+                                <a href="https://orange-sketch.top/38xKl0Sipv/" class="post-tag i-tag
+                            i-tag-other_4">
+                            #应用
+                        </a>
+                                
+                        </div>
+                        
+                            <div class="post-feature-image" style="background-image: url('https://gitee.com/lichangle/pic/raw/master/loading.webp')"></div>
+                            
+                                <div class="post-content">
+                                    <blockquote>
+<p>改变传统的网页浏览格式，让网页更加个性化。</p>
+</blockquote>
+<!-- more -->
+<p>需结合stylus插件配合使用，直接导入即可。</p>
+<ul>
+<li>样式一<br>
+效果：<br>
+<img src="https://gitee.com/lichangle/pic/raw/master/css.png" alt="view" loading="lazy"><br>
+代码：</li>
+</ul>
+<pre><code>.c-container {
+    border: 1px solid #F5F5F5;
+    border-radius: 1px;
+    padding: 25px;
+    transition: all 450ms cubic-bezier(0.01, 0.48, 0.47, 0.99) 0ms;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.05);
+}
+.c-container:hover {
+    border: 1px solid #B9D5FF;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.10);
+}
+
+
+/*未选中方框，边框，阴影*/
+.c-container {
+    border: 1px solid #fdfdfd00;
+    background:#fdfdfd26;
+    border-radius: 1px;
+    padding: 25px;
+    transition: all 450ms cubic-bezier(0.01, 0.48, 0.47, 0.99) 0ms;
+    box-shadow: 5px 5px 10px 0 rgba(157, 155, 155, 0);
+}
+/*选中方框*/
+.c-container:hover {
+    border: 1px solid #e8e8e8ed;
+    background:#fffefe8a;
+    box-shadow: 5px 5px 10px 0 rgba(28, 28, 28, .85);
+}
+
+/*多栏*/
+.container_l, .op-img-star-divide-low &gt; a {
+    width: auto !important;
+}
+
+#content_left {
+    width: 93%!important;
+    padding-left: 3.5%!important;
+}
+#content_left &gt; .c-container, #content_left &gt; [class^=&quot;result&quot;] {
+    display: block !important;
+    width: 31% !important;
+    min-width: 568px !important;
+    min-height: 116px !important;
+    float: left !important;
+    margin: 0.4% !important;
+    padding: 8px 5px 3px 5px !important;
+    table-layout: fixed !important;
+    border-collapse: separate !important;
+    overflow: hidden !important;
+}
+
+.s_tab, .nums, .search_tool_conter, #rs, .to_tieba, .to_zhidao_bottom {
+    margin: 0 auto!important;
+}
+
+#page, #s_tab {
+    padding-left: 0px !important;
+    text-align: center!important;
+}
+
+body[link='#0000cc'] .s_form {
+    width:793px!important;
+    margin:0 auto !important;
+    transform:translatex(-260px);
+}
+
+#content_right, .c-recommend, body &gt; div[class=&quot;result-op xpath-log&quot;], #content_left &gt; * {
+    display: none !important;
+}
+
+/* 搜索标题 */
+.t a,p a,#rs a,#rs_top_new a,.hint_toprq_tips_items div a,.c-title a{
+    color:#040404de!important;
+    text-decoration:none;
+}
+/* 新闻搜索 标题 */
+.c-title{
+font-size:18px;
+    font-weight:normal;
+}
+
+.t a em,.c-title a em{
+/*     color:#4E4E4E!important; */
+    text-decoration:none;
+}
+.t a:hover,p a:hover,#rs a:hover,.res-gap-right16:hover,.c-abstract a:hover,.hint_toprq_tips_items div a:hover,.c-title a:hover{
+color:#b90006!important;
+text-decoration:none;
+}
+.op-mapcity-btm a:hover{
+color:white!important;
+}
+.t a:hover em,.c-title a:hover em{
+color:#aa0101!important;
+}
+
+/* 介绍字体及颜色 */
+.c-abstract,.c-abstract a,.op_offical_weibo_name,.op_offical_weibo_detail,.op_offical_weibo_pz a,.op_offical_weibo_other a,.c-row,.c-more_link,.op_tour_aim_tip span a,.op-koubei2-comt,.op-koubei2-more a,.op_weather4_twoicon_aa,.op_weather4_twoicon_close, .op_weather4_twoicon_open,.op_sp_realtime_bigpic5_list_info a,.op_sp_realtime_bigpic5_subTitle_con a,.op_sp_realtime_bigpic5_first_abs a{
+    color:#2b1400b5!important;
+    font-size: 12px;
+    text-decoration:none;
+}
+
+/* 搜索结果标红 */
+em,.c-row em,.c-abstract em,.c-offset a em,.result-op table tr td a em,.c-offset td a em,.op-tieba-general-lookmore a em,.c-gap-top-small a:hover,.opr-recommends-merge-more-btn:hover,.op_sp_realtime_bigpic5_first_abs a:hover{
+color:#b3011b!important;
+}
+
+
+.c-gap-left{
+margin-left:0px;
+}
+.c-offset{
+padding-left:0px;
+}
+
+/*分类标签*/
+.c-tabs-nav {
+               background-color: #EEEEEE;
+}
+
+.c-tabs-nav-selected {
+               border-bottom: #F44336 2px solid !important;
+	           background-color: #2196F3 !important;
+               color: #fff !important;
+}
+
+
+a {
+               color: #4879BD;
+}
+
+h3 a:hover {
+               border-bottom: #4879BD 1.2px solid;
+}
+
+.c-showurl {
+               color: #532c029e;
+}
+
+.op-se-listen-recommend:hover {
+               border-bottom: #4879BD 1.2px solid;
+}
+
+.c-gap-bottom-small a:hover {
+               border-bottom: #4879BD 1.2px solid;
+}
+.c-row a:hover {
+               border-bottom: #4879BD 1.2px solid;
+}
+#rs a:hover {
+               border-bottom: #4879BD 1.2px solid;
+}
+.hint_toprq_tips_items a:hover {
+               border-bottom: #4879BD 1.2px solid;
+}
+.c:hover {
+               border-bottom: #4879BD 1.2px solid;
+}
+
+em {
+               color: #EA4335;
+}
+
+
+/*页面背景*/
+body {
+               background-color: #eee0;
+}
+
+/*页码*/
+#page a{
+	           background: #fff;
+	           color: #42424282;
+}
+
+#page a:hover{
+               background-color: #e0e0e0 !important;
+}
+
+#page a .pc:hover {
+               background-color: #e0e0e0;
+}
+
+#page strong {
+               background-color: #4285F4 !important;
+               color: #fff;
+}
+
+#page strong .pc {
+               background-color: #4285F4 !important;
+}
+
+.pc:hover {
+               background-color: #e0e0e0;
+}
+
+#s_tab b {
+               border-bottom: 3px #4879BD solid;
+               color: #4879BD;
+}
+
+#s_tab {
+               border-bottom: #e0e0e0 1px solid;
+}
+
+.bdpfmenu a:hover {
+               background-color: #4879BD !important;
+}
+
+.setpref:hover {
+               background-color: #4879BD !important;
+}
+
+#u .lb {
+               background-color: #4879BD;
+}
+
+#u .lb:hover {
+               background-color: #618CC7;
+}
+
+#u .lb:active {
+               background-color: #7DA0D0;
+}
+
+#bg {
+               background-color: #FFF !important;
+               background: #FFF;
+}
+
+#u1 a.lb {
+               background-color: #4879BD;
+}
+
+#u1 a.lb:hover {
+               background-color: #618CC7;
+}
+
+#u1 a.lb:active {
+               background-color: #7DA0D0;
+}
+
+#u_sp .s_bri {
+               background-color: #F44336;
+}
+
+#s_username_top {
+               background-color: #e0e0e0;
+}
+
+.s-user-set-menu a:hover {
+               background-color: #4879BD !important;
+}
+
+#user {
+               background-color: #fff0;
+}
+
+.msg-setting-btn {
+               background-color: #4879BD !important;
+}
+.no-use {
+               background-color: #E5E5E5 !important;
+}
+
+.pass-text-input {
+               border-bottom: #e0e0e0 2px solid !important;
+               border-left: #fff 0px solid !important;
+               border-right: #fff 0px solid !important;
+               border-top: #fff 0px solid !important;
+}
+
+.pass-text-input-focus {
+               border-bottom: #4879BD 2px solid !important;
+               border-left: #fff 0px solid !important;
+               border-right: #fff 0px solid !important;
+               border-top: #fff 0px solid !important;
+}              
+
+.tang-pass-pop-login-color-blue .pass-button {
+               background-color: #4879BD;
+}
+.tang-pass-pop-login-color-blue .pass-button:hover {
+               background-color: #618CC7;
+}
+
+/****可以加一些自己的背景图片,替换引号内的内容为可外链的图片即可****/
+body{    
+    background-repeat: repeat-y;    
+    background-size: 100%;    
+    background-attachment:fixed;    
+    background-image: 
+        url('https://s1.ax1x.com/2020/08/08/a4gxRH.jpg');}
+/*****窗口背景的透明虚化效果*****/
+body&gt;#wrapper,body&gt;.wrap,body&gt;#main,body #appbar,body #hdtbSum{    
+    background: rgba(225, 225, 225, 0);}
+
+body #head,body&gt;#page{    
+    background: rgba(225, 225, 225, .21);}
+/*头部*/
+body #head{
+     background: #e8e6e6a1;
+
+}
+/*颈部*/
+body #s_tab {
+	  background: #d50101;
+}
+body #color{
+    color: #fb0303;
+    background: #d50101
+ }  
+
+</code></pre>
+<figure data-type="image" tabindex="1"><img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=319307463,3903230823&amp;fm=26&amp;gp=0.jpg" alt="end" loading="lazy"></figure>
+
+                                </div>
+                    </article>
+                    <!--  -->
+                    
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
+                </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                                <!-- id-card -->
+                                
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://orange-sketch.top/images/avatar.png?v=1680667881577)">
+        </div>
+        <h1 class="id_card-title">
+            枼の華
+        </h1>
+        <h2 class="id_card-description">
+            一直走，莫回頭。
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
+
+        </div>
+    </div>
+    
+                                    
+
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="site-footer">
+  <div id="hans-bolang"></div><script src="https://api.vvhan.com/api/bolang"></script>
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			div{
+				cursor: url(https://pic1.imgdb.cn/item/63705d6416f2c2beb148ac46.png), pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<div></div>
+	</body>
+</html> | 
+  <a class="rss" href="https://orange-sketch.top/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+
+    </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+    
+</body>
+
+</html>
